@@ -629,13 +629,13 @@ Window {
                       id: modelTypeEpoch
                       ListElement { text : "50"}
                       ListElement {text: "100"}
-                      ListElement {text: "150 "}
+                      /*ListElement {text: "150 "}
                       ListElement {text: "200"}
-                      ListElement {text: "300 "}
+                      ListElement {text: "300 "}*/
                   }
                   anchors.centerIn:dialogContentRectangle.left // Center the ComboBox in its parent (the dialog content).
-
-                  anchors.top: modelType.bottom
+                  anchors.leftMargin: 30
+                  anchors.top:  titleBar.bottom
 
                   anchors.topMargin: 30
 
@@ -644,9 +644,7 @@ Window {
                       text: "Number of Epochs: "
                       font.pointSize: 10
                       anchors.centerIn: modelType_Epoch.Center  // Center the Label in its parent (the title bar).
-
                       anchors.bottom: modelType_Epoch.top
-
                       font.bold:  true
                   }
               }
@@ -663,7 +661,7 @@ Window {
 
                   }
                   anchors.right:dialogContentRectangle.right // Center the ComboBox in its parent (the dialog content).
-
+                  anchors.rightMargin: 35
                   anchors.top:  titleBar.bottom
                   anchors.topMargin: 30
 
@@ -672,9 +670,7 @@ Window {
                       text: "Visualize Checkpoints"
                       font.pointSize: 10
                       anchors.centerIn:modelTypeSavedCheckPoints.Center  // Center the Label in its parent (the title bar).
-
                       anchors.bottom: modelTypeSavedCheckPoints.top
-
                       font.bold:  true
                   }
               }
