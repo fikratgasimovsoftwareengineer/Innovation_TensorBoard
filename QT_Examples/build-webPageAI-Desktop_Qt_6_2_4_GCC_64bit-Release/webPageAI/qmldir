@@ -1,0 +1,4 @@
+module webPageAI
+typeinfo appwebPageAI.qmltypes
+prefer :/webPageAI/
+

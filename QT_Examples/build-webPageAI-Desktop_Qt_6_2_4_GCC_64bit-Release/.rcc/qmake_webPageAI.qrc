@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/webPageAI">
+    <file alias="qmldir">/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/webPageAI/qmldir</file>
+  </qresource>
+</RCC>
+

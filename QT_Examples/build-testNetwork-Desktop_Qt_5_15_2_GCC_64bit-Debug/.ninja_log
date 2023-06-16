@@ -1,0 +1,21 @@
+# ninja log v5
+1	126	1686908093537215406	/home/fikrat/QT_Examples/build-testNetwork-Desktop_Qt_5_15_2_GCC_64bit-Debug/testNetwork_autogen/timestamp	196e5669b9698e98
+1	126	1686908093537215406	/home/fikrat/QT_Examples/build-testNetwork-Desktop_Qt_5_15_2_GCC_64bit-Debug/testNetwork_autogen/mocs_compilation.cpp	196e5669b9698e98
+2225	2685	1686907953086339196	testNetwork	cd78bf122d9fb714
+211	2045	1686907952446344618	CMakeFiles/testNetwork.dir/testNetwork_autogen/mocs_compilation.cpp.o	ff86486d87d074ec
+216	2202	1686907952606343262	CMakeFiles/testNetwork.dir/widget.cpp.o	43c9ac817265fc1b
+1	126	1686908093537215406	testNetwork_autogen/mocs_compilation.cpp	196e5669b9698e98
+1	126	1686908093537215406	testNetwork_autogen/timestamp	196e5669b9698e98
+211	2225	1686907952626343093	CMakeFiles/testNetwork.dir/main.cpp.o	c36c3b02b75deb6b
+1	146	1686908269579958641	testNetwork_autogen/timestamp	196e5669b9698e98
+1	146	1686908269579958641	testNetwork_autogen/mocs_compilation.cpp	196e5669b9698e98
+1	146	1686908269579958641	/home/fikrat/QT_Examples/build-testNetwork-Desktop_Qt_5_15_2_GCC_64bit-Debug/testNetwork_autogen/timestamp	196e5669b9698e98
+1	146	1686908269579958641	/home/fikrat/QT_Examples/build-testNetwork-Desktop_Qt_5_15_2_GCC_64bit-Debug/testNetwork_autogen/mocs_compilation.cpp	196e5669b9698e98
+1	114	1686908279795889881	testNetwork_autogen/timestamp	196e5669b9698e98
+1	114	1686908279795889881	testNetwork_autogen/mocs_compilation.cpp	196e5669b9698e98
+1	114	1686908279795889881	/home/fikrat/QT_Examples/build-testNetwork-Desktop_Qt_5_15_2_GCC_64bit-Debug/testNetwork_autogen/timestamp	196e5669b9698e98
+1	114	1686908279795889881	/home/fikrat/QT_Examples/build-testNetwork-Desktop_Qt_5_15_2_GCC_64bit-Debug/testNetwork_autogen/mocs_compilation.cpp	196e5669b9698e98
+114	1510	1686908281191880517	CMakeFiles/testNetwork.dir/testNetwork_autogen/mocs_compilation.cpp.o	a5ced49f51ebe654
+115	1516	1686908281199880463	CMakeFiles/testNetwork.dir/widget.cpp.o	59f19770fb039607
+114	1523	1686908281207880409	CMakeFiles/testNetwork.dir/main.cpp.o	dc1f83a4ac4ce153
+1523	1726	1686908281407879068	testNetwork	447c2c8d8e8a9a1

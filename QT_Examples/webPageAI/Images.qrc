@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>innovation.jpg</file>
+        <file>background.jpg</file>
+        <file>chip.png</file>
+        <file>chip_2.png</file>
+    </qresource>
+</RCC>

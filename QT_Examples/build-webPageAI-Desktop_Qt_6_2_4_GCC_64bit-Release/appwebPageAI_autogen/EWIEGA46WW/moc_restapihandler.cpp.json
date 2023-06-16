@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "RestAPIHandler",
+            "object": true,
+            "qualifiedClassName": "RestAPIHandler",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "restapihandler.h",
+    "outputRevision": 68
+}

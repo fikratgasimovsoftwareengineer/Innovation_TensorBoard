@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qmlMap/">
+    <file alias="Main.qml">/home/fikrat/QT_Examples/qmlMap/Main.qml</file>
+  </qresource>
+</RCC>
+

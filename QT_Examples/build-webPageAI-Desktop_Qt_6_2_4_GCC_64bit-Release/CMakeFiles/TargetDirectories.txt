@@ -1,0 +1,15 @@
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/appwebPageAI.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/appwebPageAI_qmltyperegistration.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/all_qmltyperegistrations.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/appwebPageAI_other_files.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/appwebPageAI_qmllint.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/all_qmllint.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/appwebPageAI_tooling.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/edit_cache.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/rebuild_cache.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/list_install_components.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/install.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/install/local.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/install/strip.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/appwebPageAI_autogen_timestamp_deps.dir
+/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Release/CMakeFiles/appwebPageAI_autogen.dir

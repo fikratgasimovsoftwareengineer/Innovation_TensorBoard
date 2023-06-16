@@ -1,0 +1,170 @@
+[
+    {
+        "classes": [
+            {
+                "className": "ImageHandler",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "getSelectFiles",
+                        "returnType": "QList<QUrl>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "path",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "saveImage",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "imagePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "displayImages",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getRawImages",
+                        "returnType": "QList<QUrl>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "fileName",
+                                "type": "QString&"
+                            }
+                        ],
+                        "name": "getFillNames",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getNames",
+                        "returnType": "QStringList"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "selectfiles",
+                        "notify": "selectFilesChanged",
+                        "read": "getSelectFiles",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<QUrl>",
+                        "user": false,
+                        "write": "setSelectFiles"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "rawimages",
+                        "notify": "rawImagesChanged",
+                        "read": "getRawImages",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<QUrl>",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "names",
+                        "notify": "namesChanged",
+                        "read": "getNames",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "ImageHandler",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "selectFilesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "rawImagesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "allImagesLoaded",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "namesChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "files",
+                                "type": "QList<QUrl>"
+                            }
+                        ],
+                        "name": "setSelectFiles",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    },
+                    {
+                        "access": "public",
+                        "name": "IIimageManager"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "imagehandler.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "RestAPIHandler",
+                "object": true,
+                "qualifiedClassName": "RestAPIHandler",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "restapihandler.h",
+        "outputRevision": 68
+    }
+]
