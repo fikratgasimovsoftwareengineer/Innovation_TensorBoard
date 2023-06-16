@@ -1,2 +1,0 @@
-/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Debug/appwebPageAI_autogen/include/../EWIEGA46WW/moc_imagehandler.cpp.json
-/home/fikrat/QT_Examples/build-webPageAI-Desktop_Qt_6_2_4_GCC_64bit-Debug/appwebPageAI_autogen/include/../EWIEGA46WW/moc_restapihandler.cpp.json

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/webPageAI/">
-    <file alias="main.qml">/home/fikrat/QT_Examples/webPageAI/main.qml</file>
-  </qresource>
-</RCC>
-

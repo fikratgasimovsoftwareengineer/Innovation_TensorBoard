@@ -651,6 +651,35 @@ Window {
                   }
               }
 
+        ComboBox {
+                  id: modelTypeSavedCheckPoints
+
+                  width: 200
+                  model: ListModel {
+                      id: modelTypeCheck
+                      ListElement { text : "CheckPoint Object Detection : "}
+                      ListElement {text: "CheckPoint Semantic Segmentation : "}
+                      ListElement {text: "CheckPoint Transfer Learning :  "}
+
+                  }
+                  anchors.right:dialogContentRectangle.right // Center the ComboBox in its parent (the dialog content).
+
+                  anchors.top:  titleBar.bottom
+                  anchors.topMargin: 30
+
+                  Label{
+                      id:titleCheckPoint
+                      text: "Visualize Checkpoints"
+                      font.pointSize: 10
+                      anchors.centerIn:modelTypeSavedCheckPoints.Center  // Center the Label in its parent (the title bar).
+
+                      anchors.bottom: modelTypeSavedCheckPoints.top
+
+                      font.bold:  true
+                  }
+              }
+
+
 
 
     }
