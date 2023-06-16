@@ -49,7 +49,7 @@ Window {
     //Step 3
     Image{
         id:backgroundImage
-        source: Qt.resolvedUrl("file:///home/fikrat/QT_Examples/webPageAI/background.jpg")
+        source: Qt.resolvedUrl("file:///home/fikrat/Innovation_TensorBoard/QT_Examples/webPageAI/background.jpg")
 
         fillMode: Image.PreserveAspectCrop
         anchors.fill: parent
@@ -117,7 +117,7 @@ Window {
             font.pointSize: 15
             // Display Images
             onClicked:{
-                imagesHandler.displayImages("/home/fikrat/QT_Examples/webPageAI/Images")
+                imagesHandler.displayImages("/home/fikrat/Innovation_TensorBoard/QT_Examples/webPageAI/Images")
 
             }
             background: Rectangle {
@@ -152,7 +152,7 @@ Window {
 
             // Return FileNames
             onClicked:{
-                imagesHandler.getFillNames("/home/fikrat/QT_Examples/webPageAI/Images")
+                imagesHandler.getFillNames("/home/fikrat/Innovation_TensorBoard/QT_Examples/webPageAI")
             }
 
             // OnClicked here Implement
@@ -295,8 +295,8 @@ Window {
             imagesHandler.setSelectFiles(fileDialog.selectedFiles)
 
 
-            imagesHandler.saveImage("/home/fikrat/QT_Examples/webPageAI/Images")
-            console.log("You choose and Saving in ..." + "/home/fikrat/QT_Examples/webPageAI/Images")
+            imagesHandler.saveImage("/home/fikrat/Innovation_TensorBoard/QT_Examples/webPageAI/Images")
+            console.log("You choose and Saving in ..." + "/home/fikrat/Innovation_TensorBoard/QT_Examples/webPageAI/Images")
 
 
         } // onaccepted finishe
