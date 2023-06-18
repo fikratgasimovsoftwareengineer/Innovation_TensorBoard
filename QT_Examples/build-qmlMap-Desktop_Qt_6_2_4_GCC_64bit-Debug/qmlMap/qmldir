@@ -1,5 +1,0 @@
-module qmlMap
-typeinfo appqmlMap.qmltypes
-prefer :/qmlMap/
-Main 1.0 Main.qml
-

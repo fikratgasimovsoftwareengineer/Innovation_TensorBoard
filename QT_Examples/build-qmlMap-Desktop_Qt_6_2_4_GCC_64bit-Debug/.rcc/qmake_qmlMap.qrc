@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qmlMap">
-    <file alias="qmldir">/home/fikrat/QT_Examples/build-qmlMap-Desktop_Qt_6_2_4_GCC_64bit-Debug/qmlMap/qmldir</file>
-  </qresource>
-</RCC>
-
