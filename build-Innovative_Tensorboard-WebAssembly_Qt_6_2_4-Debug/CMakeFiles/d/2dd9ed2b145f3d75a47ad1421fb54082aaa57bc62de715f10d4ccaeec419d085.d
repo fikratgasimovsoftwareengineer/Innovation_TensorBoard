@@ -1,5 +1,6 @@
 Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/CMakeLists.txt \
+  /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/main.cpp \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h \
@@ -1046,29 +1047,20 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/qtloader.js \
   /home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/qtlogo.svg \
   /home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/wasm_shell.html \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeParseArguments.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakePushCheckState.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystem.cmake.in \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Clang-CXX.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Clang-FindBinUtils.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Clang.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake \
   /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/FeatureSummary.cmake \

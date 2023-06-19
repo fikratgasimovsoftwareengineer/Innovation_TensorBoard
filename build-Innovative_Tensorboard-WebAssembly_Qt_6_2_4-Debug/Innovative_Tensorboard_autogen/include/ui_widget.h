@@ -14,6 +14,7 @@
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -32,6 +33,8 @@ public:
     QLabel *label_5;
     QFrame *line;
     QComboBox *comboBox;
+    QLabel *label_6;
+    QPushButton *pushButton;
     QWidget *widget_2;
     QWidget *widget_3;
     QWidget *widget_4;
@@ -79,6 +82,13 @@ public:
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
         comboBox->setGeometry(QRect(1610, 40, 121, 25));
         comboBox->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
+        label_6 = new QLabel(widget);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setGeometry(QRect(1820, 30, 71, 31));
+        pushButton = new QPushButton(widget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(1790, 40, 41, 31));
+        pushButton->setStyleSheet(QString::fromUtf8("image: url(:/Icons/settings.png);"));
 
         verticalLayout->addWidget(widget);
 
@@ -91,10 +101,10 @@ public:
         widget_3->setGeometry(QRect(0, 0, 251, 1001));
         widget_4 = new QWidget(widget_2);
         widget_4->setObjectName(QString::fromUtf8("widget_4"));
-        widget_4->setGeometry(QRect(250, 0, 1671, 61));
+        widget_4->setGeometry(QRect(250, -10, 1671, 61));
         widget_5 = new QWidget(widget_2);
         widget_5->setObjectName(QString::fromUtf8("widget_5"));
-        widget_5->setGeometry(QRect(250, 60, 1691, 951));
+        widget_5->setGeometry(QRect(250, 40, 1691, 951));
         widget_5->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
 
         retranslateUi(Widget);
@@ -113,6 +123,14 @@ public:
         comboBox->setItemText(0, QCoreApplication::translate("Widget", "InActive", nullptr));
         comboBox->setItemText(1, QCoreApplication::translate("Widget", "Active", nullptr));
 
+#if QT_CONFIG(whatsthis)
+        label_6->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p><img src=\":/Icons/settings.png\"/></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        label_6->setText(QString());
+#if QT_CONFIG(whatsthis)
+        pushButton->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p><img src=\":/Icons/settings.png\"/></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        pushButton->setText(QString());
     } // retranslateUi
 
 };

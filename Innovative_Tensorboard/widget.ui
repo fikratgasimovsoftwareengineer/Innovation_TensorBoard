@@ -133,14 +133,39 @@ color: rgb(238, 238, 236);</string>
         </property>
        </item>
       </widget>
-      <widget class="QWidget" name="widget_6" native="true">
+      <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>1860</x>
-         <y>20</y>
-         <width>41</width>
-         <height>41</height>
+         <x>1820</x>
+         <y>30</y>
+         <width>71</width>
+         <height>31</height>
         </rect>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Icons/settings.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>1790</x>
+         <y>40</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Icons/settings.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/Icons/settings.png);</string>
+       </property>
+       <property name="text">
+        <string/>
        </property>
       </widget>
      </widget>
@@ -183,7 +208,7 @@ color: rgb(238, 238, 236);</string>
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>60</y>
+      <y>40</y>
       <width>1691</width>
       <height>951</height>
      </rect>

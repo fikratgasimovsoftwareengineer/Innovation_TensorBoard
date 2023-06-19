@@ -7,7 +7,7 @@
 	"INCLUDE_DIR" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/gear.png"
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/settings.png"
 	],
 	"LOCK_FILE" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

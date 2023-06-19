@@ -191,7 +191,7 @@ build Innovative_Tensorboard_autogen/timestamp Innovative_Tensorboard_autogen/mo
 #############################################
 # Custom command for Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp
 
-build Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp | ${cmake_ninja_workdir}Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: CUSTOM_COMMAND /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Info.json /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/gear.png /home/fikrat/Qt/6.2.4/gcc_64/./libexec/rcc || Innovative_Tensorboard_autogen Innovative_Tensorboard_autogen_timestamp_deps
+build Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp | ${cmake_ninja_workdir}Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: CUSTOM_COMMAND /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Info.json /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/settings.png /home/fikrat/Qt/6.2.4/gcc_64/./libexec/rcc || Innovative_Tensorboard_autogen Innovative_Tensorboard_autogen_timestamp_deps
   COMMAND = cd /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug && /home/fikrat/Qt/Tools/CMake/bin/cmake -E cmake_autorcc /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Info.json Debug
   DESC = Automatic RCC for icons.qrc
   restat = 1
