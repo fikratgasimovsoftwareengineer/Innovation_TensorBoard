@@ -9,28 +9,6 @@
 			"path" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/6.2.4/wasm_32/lib/cmake/Qt6/qt.toolchain.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/6.2.4/wasm_32/lib/cmake/Qt6/QtPublicWasmToolchainHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/fikrat/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystem.cmake.in"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake"
 		},
@@ -49,37 +27,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Clang-FindBinUtils.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in"
 		},
 		{
 			"isGenerated" : true,
@@ -146,11 +94,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -14571,6 +14514,9 @@
 		{
 			"isExternal" : true,
 			"path" : "/home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/qtlogo.svg"
+		},
+		{
+			"path" : "icons.qrc"
 		}
 	],
 	"kind" : "cmakeFiles",

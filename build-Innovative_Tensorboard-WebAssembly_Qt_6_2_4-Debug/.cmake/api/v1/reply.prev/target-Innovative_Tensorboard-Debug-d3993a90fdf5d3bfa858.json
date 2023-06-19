@@ -75,7 +75,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
@@ -99,7 +99,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 55,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
@@ -427,13 +427,13 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
 				"command" : 15,
 				"file" : 1,
-				"line" : 62,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
@@ -713,7 +713,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				8
 			]
 		}
 	],
@@ -1032,7 +1033,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				8
 			]
 		},
 		{
@@ -1040,7 +1042,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				6
 			]
 		},
 		{
@@ -1048,23 +1050,22 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				5,
+				7
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				9,
+				10
 			]
 		},
 		{
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				8,
-				9,
-				10,
 				11,
 				12,
 				13,
@@ -1072,7 +1073,10 @@
 				15,
 				16,
 				17,
-				18
+				18,
+				19,
+				20,
+				21
 			]
 		}
 	],
@@ -1108,6 +1112,11 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "icons.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/include/ui_widget.h",
@@ -1121,8 +1130,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

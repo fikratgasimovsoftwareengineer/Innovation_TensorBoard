@@ -5,7 +5,10 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
 	"CMAKE_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
 	"INCLUDE_DIR" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/include",
-	"INPUTS" : [],
+	"INPUTS" : 
+	[
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/gear.png"
+	],
 	"LOCK_FILE" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "icons" ],
