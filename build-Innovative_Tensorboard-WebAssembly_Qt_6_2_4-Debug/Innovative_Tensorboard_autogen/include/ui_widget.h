@@ -14,7 +14,6 @@
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -32,9 +31,10 @@ public:
     QLabel *label_4;
     QLabel *label_5;
     QFrame *line;
-    QComboBox *comboBox;
     QLabel *label_6;
-    QPushButton *pushButton;
+    QLabel *label_7;
+    QComboBox *comboBox;
+    QFrame *line_2;
     QWidget *widget_2;
     QWidget *widget_3;
     QWidget *widget_4;
@@ -71,41 +71,50 @@ public:
         label_5->setGeometry(QRect(760, 30, 181, 31));
         line = new QFrame(widget);
         line->setObjectName(QString::fromUtf8("line"));
-        line->setGeometry(QRect(1610, 70, 118, 3));
+        line->setGeometry(QRect(1530, 70, 118, 3));
         line->setStyleSheet(QString::fromUtf8("border-color: rgb(238, 238, 236);\n"
 "color: rgb(238, 238, 236);"));
         line->setFrameShape(QFrame::HLine);
         line->setFrameShadow(QFrame::Sunken);
+        label_6 = new QLabel(widget);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setGeometry(QRect(1780, 30, 67, 31));
+        label_6->setStyleSheet(QString::fromUtf8("image: url(:/Icons/icon_setting.png);"));
+        label_7 = new QLabel(widget);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setGeometry(QRect(1730, 30, 51, 31));
+        label_7->setStyleSheet(QString::fromUtf8("image: url(:/Icons/rotate.png);"));
         comboBox = new QComboBox(widget);
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
-        comboBox->setGeometry(QRect(1610, 40, 121, 25));
-        comboBox->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
-        label_6 = new QLabel(widget);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(1820, 30, 71, 31));
-        pushButton = new QPushButton(widget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(1790, 40, 41, 31));
-        pushButton->setStyleSheet(QString::fromUtf8("image: url(:/Icons/settings.png);"));
+        comboBox->setGeometry(QRect(1580, 20, 121, 31));
+        comboBox->setStyleSheet(QString::fromUtf8("border-color: rgb(245, 121, 0);\n"
+"font: 700 16pt \"Ubuntu Mono\";\n"
+"border-color: rgb(245, 121, 0);"));
+        line_2 = new QFrame(widget);
+        line_2->setObjectName(QString::fromUtf8("line_2"));
+        line_2->setGeometry(QRect(1580, 60, 118, 3));
+        line_2->setFrameShape(QFrame::HLine);
+        line_2->setFrameShadow(QFrame::Sunken);
 
         verticalLayout->addWidget(widget);
 
         widget_2 = new QWidget(Widget);
         widget_2->setObjectName(QString::fromUtf8("widget_2"));
-        widget_2->setGeometry(QRect(0, 79, 1920, 1251));
-        widget_2->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
+        widget_2->setGeometry(QRect(-10, 70, 1931, 1231));
+        widget_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         widget_3 = new QWidget(widget_2);
         widget_3->setObjectName(QString::fromUtf8("widget_3"));
         widget_3->setGeometry(QRect(0, 0, 251, 1001));
+        widget_3->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
         widget_4 = new QWidget(widget_2);
         widget_4->setObjectName(QString::fromUtf8("widget_4"));
-        widget_4->setGeometry(QRect(250, -10, 1671, 61));
+        widget_4->setGeometry(QRect(250, -10, 1, 61));
         widget_5 = new QWidget(widget_2);
         widget_5->setObjectName(QString::fromUtf8("widget_5"));
-        widget_5->setGeometry(QRect(250, 40, 1691, 951));
-        widget_5->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        widget_5->setGeometry(QRect(250, 0, 1681, 80));
+        widget_5->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
 
         retranslateUi(Widget);
 
@@ -120,17 +129,17 @@ public:
         label_3->setText(QCoreApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:16pt; color:#eeeeec;\">Scalars</span></p></body></html>", nullptr));
         label_4->setText(QCoreApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:16pt; color:#eeeeec;\">Raw Images</span></p></body></html>", nullptr));
         label_5->setText(QCoreApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:16pt; color:#eeeeec;\">Predicted Images</span></p></body></html>", nullptr));
-        comboBox->setItemText(0, QCoreApplication::translate("Widget", "InActive", nullptr));
-        comboBox->setItemText(1, QCoreApplication::translate("Widget", "Active", nullptr));
-
-#if QT_CONFIG(whatsthis)
-        label_6->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p><img src=\":/Icons/settings.png\"/></p></body></html>", nullptr));
-#endif // QT_CONFIG(whatsthis)
         label_6->setText(QString());
+        label_7->setText(QString());
+        comboBox->setItemText(0, QCoreApplication::translate("Widget", "INACTIVE", nullptr));
+        comboBox->setItemText(1, QCoreApplication::translate("Widget", "ACTIVE", nullptr));
+
+#if QT_CONFIG(tooltip)
+        comboBox->setToolTip(QCoreApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:16pt;\">InActive</span></p></body></html>", nullptr));
+#endif // QT_CONFIG(tooltip)
 #if QT_CONFIG(whatsthis)
-        pushButton->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p><img src=\":/Icons/settings.png\"/></p></body></html>", nullptr));
+        comboBox->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><br/></p></body></html>", nullptr));
 #endif // QT_CONFIG(whatsthis)
-        pushButton->setText(QString());
     } // retranslateUi
 
 };

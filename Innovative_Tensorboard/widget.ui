@@ -96,7 +96,7 @@
       <widget class="Line" name="line">
        <property name="geometry">
         <rect>
-         <x>1610</x>
+         <x>1530</x>
          <y>70</y>
          <width>118</width>
          <height>3</height>
@@ -110,62 +110,80 @@ color: rgb(238, 238, 236);</string>
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
-      <widget class="QComboBox" name="comboBox">
-       <property name="geometry">
-        <rect>
-         <x>1610</x>
-         <y>40</y>
-         <width>121</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(238, 238, 236);</string>
-       </property>
-       <item>
-        <property name="text">
-         <string>InActive</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Active</string>
-        </property>
-       </item>
-      </widget>
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>1820</x>
+         <x>1780</x>
          <y>30</y>
-         <width>71</width>
+         <width>67</width>
          <height>31</height>
         </rect>
        </property>
-       <property name="whatsThis">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Icons/settings.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/Icons/icon_setting.png);</string>
        </property>
        <property name="text">
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QLabel" name="label_7">
        <property name="geometry">
         <rect>
-         <x>1790</x>
-         <y>40</y>
-         <width>41</width>
+         <x>1730</x>
+         <y>30</y>
+         <width>51</width>
          <height>31</height>
         </rect>
        </property>
-       <property name="whatsThis">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Icons/settings.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
        <property name="styleSheet">
-        <string notr="true">image: url(:/Icons/settings.png);</string>
+        <string notr="true">image: url(:/Icons/rotate.png);</string>
        </property>
        <property name="text">
         <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>1580</x>
+         <y>20</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;InActive&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(245, 121, 0);
+font: 700 16pt &quot;Ubuntu Mono&quot;;
+border-color: rgb(245, 121, 0);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>INACTIVE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ACTIVE</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="Line" name="line_2">
+       <property name="geometry">
+        <rect>
+         <x>1580</x>
+         <y>60</y>
+         <width>118</width>
+         <height>3</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </widget>
@@ -175,14 +193,14 @@ color: rgb(238, 238, 236);</string>
   <widget class="QWidget" name="widget_2" native="true">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>79</y>
-     <width>1920</width>
-     <height>1251</height>
+     <x>-10</x>
+     <y>70</y>
+     <width>1931</width>
+     <height>1231</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(238, 238, 236);</string>
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
    <widget class="QWidget" name="widget_3" native="true">
     <property name="geometry">
@@ -193,13 +211,16 @@ color: rgb(238, 238, 236);</string>
       <height>1001</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(238, 238, 236);</string>
+    </property>
    </widget>
    <widget class="QWidget" name="widget_4" native="true">
     <property name="geometry">
      <rect>
       <x>250</x>
       <y>-10</y>
-      <width>1671</width>
+      <width>1</width>
       <height>61</height>
      </rect>
     </property>
@@ -208,13 +229,13 @@ color: rgb(238, 238, 236);</string>
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>40</y>
-      <width>1691</width>
-      <height>951</height>
+      <y>0</y>
+      <width>1681</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(238, 238, 236);</string>
     </property>
    </widget>
   </widget>
