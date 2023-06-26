@@ -1,0 +1,81 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 5.15.0-75-generic - x86_64
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-0KkQNa
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a392d/fast && /usr/bin/make  -f CMakeFiles/cmTC_a392d.dir/build.make CMakeFiles/cmTC_a392d.dir/build
+make[1]: Entering directory '/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-0KkQNa'
+Building CXX object CMakeFiles/cmTC_a392d.dir/src.cxx.o
+/home/fikrat/emsdk/upstream/emscripten/em++ -DHAVE_STDATOMIC  -std=gnu++17 -MD -MT CMakeFiles/cmTC_a392d.dir/src.cxx.o -MF CMakeFiles/cmTC_a392d.dir/src.cxx.o.d -o CMakeFiles/cmTC_a392d.dir/src.cxx.o -c /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-0KkQNa/src.cxx
+Linking CXX executable cmTC_a392d.js
+/home/fikrat/cmake-3.25.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a392d.dir/link.txt --verbose=1
+/home/fikrat/emsdk/upstream/emscripten/em++ @CMakeFiles/cmTC_a392d.dir/objects1 -o cmTC_a392d.js 
+make[1]: Leaving directory '/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-0KkQNa'
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+void test(volatile std::atomic<std::int64_t> &a)
+{
+    std::int64_t v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, v + 1,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(v - 1);
+    }
+    a.store(v + 1, std::memory_order_release);
+}
+
+int main(int, char **)
+{
+    void *ptr = (void*)0xffffffc0; // any random pointer
+    test(*reinterpret_cast<std::atomic<std::int64_t> *>(ptr));
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_GETTIME succeeded with the following output:
+Change Dir: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-X9H6wa
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c33c6/fast && /usr/bin/make  -f CMakeFiles/cmTC_c33c6.dir/build.make CMakeFiles/cmTC_c33c6.dir/build
+make[1]: Entering directory '/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-X9H6wa'
+Building CXX object CMakeFiles/cmTC_c33c6.dir/src.cxx.o
+/home/fikrat/emsdk/upstream/emscripten/em++ -DHAVE_GETTIME  -std=gnu++17 -MD -MT CMakeFiles/cmTC_c33c6.dir/src.cxx.o -MF CMakeFiles/cmTC_c33c6.dir/src.cxx.o.d -o CMakeFiles/cmTC_c33c6.dir/src.cxx.o -c /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-X9H6wa/src.cxx
+Linking CXX executable cmTC_c33c6.js
+/home/fikrat/cmake-3.25.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c33c6.dir/link.txt --verbose=1
+/home/fikrat/emsdk/upstream/emscripten/em++ @CMakeFiles/cmTC_c33c6.dir/objects1 -o cmTC_c33c6.js 
+make[1]: Leaving directory '/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-X9H6wa'
+
+
+Source file was:
+
+#include <unistd.h>
+#include <time.h>
+
+int main(int argc, char *argv[]) {
+    timespec ts; clock_gettime(CLOCK_REALTIME, &ts);
+}
+
+Performing C++ SOURCE FILE Test HAVE_EGL succeeded with the following output:
+Change Dir: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-GJRBxd
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8484c/fast && /usr/bin/make  -f CMakeFiles/cmTC_8484c.dir/build.make CMakeFiles/cmTC_8484c.dir/build
+make[1]: Entering directory '/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-GJRBxd'
+Building CXX object CMakeFiles/cmTC_8484c.dir/src.cxx.o
+/home/fikrat/emsdk/upstream/emscripten/em++ -DHAVE_EGL @CMakeFiles/cmTC_8484c.dir/includes_CXX.rsp -std=gnu++17 -MD -MT CMakeFiles/cmTC_8484c.dir/src.cxx.o -MF CMakeFiles/cmTC_8484c.dir/src.cxx.o.d -o CMakeFiles/cmTC_8484c.dir/src.cxx.o -c /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-GJRBxd/src.cxx
+Linking CXX executable cmTC_8484c.js
+/home/fikrat/cmake-3.25.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8484c.dir/link.txt --verbose=1
+/home/fikrat/emsdk/upstream/emscripten/em++ @CMakeFiles/cmTC_8484c.dir/objects1 -o cmTC_8484c.js 
+make[1]: Leaving directory '/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/CMakeScratch/TryCompile-GJRBxd'
+
+
+Source file was:
+
+#include <EGL/egl.h>
+
+int main(int argc, char *argv[]) {
+    EGLint x = 0; EGLDisplay dpy = 0; EGLContext ctx = 0;
+    eglDestroyContext(dpy, ctx);
+}
+

@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen",
+	"CMAKE_BINARY_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
+	"CMAKE_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
+	"INCLUDE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/icon_setting.png",
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/rotate.png"
+	],
+	"LOCK_FILE" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "/home/fikrat/Qt/6.2.4/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc",
+	"VERBOSITY" : 0
+}

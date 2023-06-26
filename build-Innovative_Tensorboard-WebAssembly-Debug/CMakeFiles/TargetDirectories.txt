@@ -1,0 +1,9 @@
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/Innovative_Tensorboard.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/edit_cache.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/rebuild_cache.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/list_install_components.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/install.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/install/local.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/install/strip.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/Innovative_Tensorboard_autogen_timestamp_deps.dir
+/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/Innovative_Tensorboard_autogen.dir

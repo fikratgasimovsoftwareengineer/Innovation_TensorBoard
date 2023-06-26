@@ -1,0 +1,8 @@
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/Innovative_Tensorboard.dir
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/edit_cache.dir
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/rebuild_cache.dir
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/list_install_components.dir
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/install.dir
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/install/local.dir
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/install/strip.dir
+/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/Innovative_Tensorboard_autogen.dir
