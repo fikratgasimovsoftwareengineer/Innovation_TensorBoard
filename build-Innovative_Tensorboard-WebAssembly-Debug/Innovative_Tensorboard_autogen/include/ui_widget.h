@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QHBoxLayout>
@@ -39,6 +40,10 @@ public:
     QLabel *label_8;
     QWidget *widget_2;
     QWidget *widget_3;
+    QLabel *label_2;
+    QLabel *label_4;
+    QCheckBox *checkBox;
+    QCheckBox *checkBox_3;
     QWidget *widget_4;
     QWidget *widget_5;
     QWidget *gridLayoutWidget;
@@ -135,14 +140,31 @@ public:
         widget_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         widget_3 = new QWidget(widget_2);
         widget_3->setObjectName(QString::fromUtf8("widget_3"));
-        widget_3->setGeometry(QRect(0, 0, 421, 1001));
+        widget_3->setGeometry(QRect(10, 0, 421, 1001));
         widget_3->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
+        label_2 = new QLabel(widget_3);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(130, 90, 141, 41));
+        label_2->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"color: rgb(252, 175, 62);"));
+        label_4 = new QLabel(widget_3);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setGeometry(QRect(120, 170, 141, 41));
+        label_4->setStyleSheet(QString::fromUtf8("color: rgb(252, 175, 62);"));
+        checkBox = new QCheckBox(widget_3);
+        checkBox->setObjectName(QString::fromUtf8("checkBox"));
+        checkBox->setGeometry(QRect(310, 101, 16, 16));
+        checkBox->setStyleSheet(QString::fromUtf8("background-color: rgb(245, 121, 0);"));
+        checkBox_3 = new QCheckBox(widget_3);
+        checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
+        checkBox_3->setGeometry(QRect(310, 180, 16, 16));
+        checkBox_3->setStyleSheet(QString::fromUtf8("background-color: rgb(245, 121, 0);"));
         widget_4 = new QWidget(widget_2);
         widget_4->setObjectName(QString::fromUtf8("widget_4"));
         widget_4->setGeometry(QRect(250, -10, 1, 61));
         widget_5 = new QWidget(widget_2);
         widget_5->setObjectName(QString::fromUtf8("widget_5"));
-        widget_5->setGeometry(QRect(250, -20, 1791, 81));
+        widget_5->setGeometry(QRect(420, -20, 1621, 81));
         widget_5->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
         gridLayoutWidget = new QWidget(widget_2);
         gridLayoutWidget->setObjectName(QString::fromUtf8("gridLayoutWidget"));
@@ -239,6 +261,19 @@ public:
         pushButton_4->setText(QString());
         pushButton_5->setText(QString());
         label_8->setText(QString());
+#if QT_CONFIG(whatsthis)
+        widget_3->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+#if QT_CONFIG(whatsthis)
+        label_2->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        label_2->setText(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#if QT_CONFIG(whatsthis)
+        label_4->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        label_4->setText(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-style:italic;\">Val Session</span></p></body></html>", nullptr));
+        checkBox->setText(QString());
+        checkBox_3->setText(QString());
         img1->setText(QString());
         img2->setText(QString());
         img3->setText(QString());

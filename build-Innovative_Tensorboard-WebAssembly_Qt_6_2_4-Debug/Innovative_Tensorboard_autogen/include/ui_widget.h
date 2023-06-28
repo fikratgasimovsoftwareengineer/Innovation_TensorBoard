@@ -43,7 +43,7 @@ public:
     QLabel *label_2;
     QLabel *label_4;
     QCheckBox *checkBox;
-    QCheckBox *checkBox_2;
+    QCheckBox *checkBox_3;
     QWidget *widget_4;
     QWidget *widget_5;
     QWidget *gridLayoutWidget;
@@ -153,10 +153,12 @@ public:
         label_4->setStyleSheet(QString::fromUtf8("color: rgb(252, 175, 62);"));
         checkBox = new QCheckBox(widget_3);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
-        checkBox->setGeometry(QRect(310, 100, 92, 23));
-        checkBox_2 = new QCheckBox(widget_3);
-        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
-        checkBox_2->setGeometry(QRect(310, 180, 92, 23));
+        checkBox->setGeometry(QRect(310, 101, 16, 16));
+        checkBox->setStyleSheet(QString::fromUtf8("background-color: rgb(245, 121, 0);"));
+        checkBox_3 = new QCheckBox(widget_3);
+        checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
+        checkBox_3->setGeometry(QRect(310, 180, 16, 16));
+        checkBox_3->setStyleSheet(QString::fromUtf8("background-color: rgb(245, 121, 0);"));
         widget_4 = new QWidget(widget_2);
         widget_4->setObjectName(QString::fromUtf8("widget_4"));
         widget_4->setGeometry(QRect(250, -10, 1, 61));
@@ -271,7 +273,7 @@ public:
 #endif // QT_CONFIG(whatsthis)
         label_4->setText(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-style:italic;\">Val Session</span></p></body></html>", nullptr));
         checkBox->setText(QString());
-        checkBox_2->setText(QString());
+        checkBox_3->setText(QString());
         img1->setText(QString());
         img2->setText(QString());
         img3->setText(QString());

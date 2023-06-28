@@ -34,11 +34,13 @@ public:
 public slots:
     void fetchImages();
 
+
+
 private slots:
     // reply finished
     void onDownloadFinishedRest(QNetworkReply*);
 
-    void onDownloadImagelabels(QNetworkReply*);
+   void onDownloadImagelabels(QNetworkReply*);
 
 private:
     Ui::Widget *ui;

@@ -1,6 +1,7 @@
 /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_6_2_4_GCC_64bit-Debug/Innovative_Tensorboard_autogen/EWIEGA46WW/moc_widget.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h \
   /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_6_2_4_GCC_64bit-Debug/Innovative_Tensorboard_autogen/moc_predefs.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QDebug \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFileInfo \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFlags \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QIODevice \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QList \
@@ -37,6 +38,9 @@
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qdatastream.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qdatetime.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qdebug.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qfile.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qfiledevice.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qfileinfo.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qflags.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qgenericatomic.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qglobal.h \
@@ -170,6 +174,7 @@
   /usr/include/c++/9/bits/basic_string.tcc \
   /usr/include/c++/9/bits/c++0x_warning.h \
   /usr/include/c++/9/bits/char_traits.h \
+  /usr/include/c++/9/bits/codecvt.h \
   /usr/include/c++/9/bits/concept_check.h \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/bits/cxxabi_forced.h \
@@ -179,6 +184,10 @@
   /usr/include/c++/9/bits/exception.h \
   /usr/include/c++/9/bits/exception_defines.h \
   /usr/include/c++/9/bits/exception_ptr.h \
+  /usr/include/c++/9/bits/fs_dir.h \
+  /usr/include/c++/9/bits/fs_fwd.h \
+  /usr/include/c++/9/bits/fs_ops.h \
+  /usr/include/c++/9/bits/fs_path.h \
   /usr/include/c++/9/bits/functexcept.h \
   /usr/include/c++/9/bits/functional_hash.h \
   /usr/include/c++/9/bits/hash_bytes.h \
@@ -188,8 +197,11 @@
   /usr/include/c++/9/bits/list.tcc \
   /usr/include/c++/9/bits/locale_classes.h \
   /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/bits/locale_conv.h \
   /usr/include/c++/9/bits/locale_facets.h \
   /usr/include/c++/9/bits/locale_facets.tcc \
+  /usr/include/c++/9/bits/locale_facets_nonio.h \
+  /usr/include/c++/9/bits/locale_facets_nonio.tcc \
   /usr/include/c++/9/bits/localefwd.h \
   /usr/include/c++/9/bits/memoryfwd.h \
   /usr/include/c++/9/bits/move.h \
@@ -201,6 +213,7 @@
   /usr/include/c++/9/bits/postypes.h \
   /usr/include/c++/9/bits/predefined_ops.h \
   /usr/include/c++/9/bits/ptr_traits.h \
+  /usr/include/c++/9/bits/quoted_string.h \
   /usr/include/c++/9/bits/range_access.h \
   /usr/include/c++/9/bits/refwrap.h \
   /usr/include/c++/9/bits/shared_ptr.h \
@@ -239,12 +252,15 @@
   /usr/include/c++/9/bits/uses_allocator.h \
   /usr/include/c++/9/bits/vector.tcc \
   /usr/include/c++/9/cctype \
+  /usr/include/c++/9/chrono \
   /usr/include/c++/9/clocale \
   /usr/include/c++/9/cmath \
+  /usr/include/c++/9/codecvt \
   /usr/include/c++/9/cstddef \
   /usr/include/c++/9/cstdint \
   /usr/include/c++/9/cstdlib \
   /usr/include/c++/9/cstring \
+  /usr/include/c++/9/ctime \
   /usr/include/c++/9/cwchar \
   /usr/include/c++/9/cwctype \
   /usr/include/c++/9/debug/assertions.h \
@@ -258,14 +274,17 @@
   /usr/include/c++/9/ext/numeric_traits.h \
   /usr/include/c++/9/ext/string_conversions.h \
   /usr/include/c++/9/ext/type_traits.h \
+  /usr/include/c++/9/filesystem \
   /usr/include/c++/9/functional \
   /usr/include/c++/9/initializer_list \
+  /usr/include/c++/9/iomanip \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/iosfwd \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/iterator \
   /usr/include/c++/9/limits \
   /usr/include/c++/9/list \
+  /usr/include/c++/9/locale \
   /usr/include/c++/9/map \
   /usr/include/c++/9/memory \
   /usr/include/c++/9/new \
@@ -280,6 +299,7 @@
   /usr/include/c++/9/streambuf \
   /usr/include/c++/9/string \
   /usr/include/c++/9/string_view \
+  /usr/include/c++/9/system_error \
   /usr/include/c++/9/tr1/bessel_function.tcc \
   /usr/include/c++/9/tr1/beta_function.tcc \
   /usr/include/c++/9/tr1/ell_integral.tcc \
@@ -302,6 +322,7 @@
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
@@ -386,7 +407,9 @@
   /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \

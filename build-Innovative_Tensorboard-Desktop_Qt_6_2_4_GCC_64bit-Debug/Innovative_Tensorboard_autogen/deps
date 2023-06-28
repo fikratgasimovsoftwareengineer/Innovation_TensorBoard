@@ -1,14 +1,15 @@
 Innovative_Tensorboard_autogen/timestamp: \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/CMakeLists.txt \
+	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/main.cpp \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h \
 	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_6_2_4_GCC_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
 	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake \
-	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/FindThreads/CheckForPthreads.cxx \
 	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_6_2_4_GCC_64bit-Debug/Innovative_Tensorboard_autogen/moc_predefs.h \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QDebug \
+	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFileInfo \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFlags \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QIODevice \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QList \
@@ -45,6 +46,9 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qdatastream.h \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qdatetime.h \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qdebug.h \
+	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qfile.h \
+	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qfiledevice.h \
+	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qfileinfo.h \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qflags.h \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qgenericatomic.h \
 	/home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qglobal.h \
@@ -255,78 +259,23 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeParseArguments.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystem.cmake.in \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CheckForPthreads.c \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/FeatureSummary.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/FindOpenGL.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake \
@@ -337,9 +286,7 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/MacroAddFileDependencies.cmake \
-	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/Linux-Determine-CXX.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake \
 	/home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/Linux.cmake \
@@ -364,6 +311,7 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/c++/9/bits/basic_string.tcc \
 	/usr/include/c++/9/bits/c++0x_warning.h \
 	/usr/include/c++/9/bits/char_traits.h \
+	/usr/include/c++/9/bits/codecvt.h \
 	/usr/include/c++/9/bits/concept_check.h \
 	/usr/include/c++/9/bits/cpp_type_traits.h \
 	/usr/include/c++/9/bits/cxxabi_forced.h \
@@ -373,6 +321,10 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/c++/9/bits/exception.h \
 	/usr/include/c++/9/bits/exception_defines.h \
 	/usr/include/c++/9/bits/exception_ptr.h \
+	/usr/include/c++/9/bits/fs_dir.h \
+	/usr/include/c++/9/bits/fs_fwd.h \
+	/usr/include/c++/9/bits/fs_ops.h \
+	/usr/include/c++/9/bits/fs_path.h \
 	/usr/include/c++/9/bits/functexcept.h \
 	/usr/include/c++/9/bits/functional_hash.h \
 	/usr/include/c++/9/bits/hash_bytes.h \
@@ -382,8 +334,11 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/c++/9/bits/list.tcc \
 	/usr/include/c++/9/bits/locale_classes.h \
 	/usr/include/c++/9/bits/locale_classes.tcc \
+	/usr/include/c++/9/bits/locale_conv.h \
 	/usr/include/c++/9/bits/locale_facets.h \
 	/usr/include/c++/9/bits/locale_facets.tcc \
+	/usr/include/c++/9/bits/locale_facets_nonio.h \
+	/usr/include/c++/9/bits/locale_facets_nonio.tcc \
 	/usr/include/c++/9/bits/localefwd.h \
 	/usr/include/c++/9/bits/memoryfwd.h \
 	/usr/include/c++/9/bits/move.h \
@@ -395,6 +350,7 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/c++/9/bits/postypes.h \
 	/usr/include/c++/9/bits/predefined_ops.h \
 	/usr/include/c++/9/bits/ptr_traits.h \
+	/usr/include/c++/9/bits/quoted_string.h \
 	/usr/include/c++/9/bits/range_access.h \
 	/usr/include/c++/9/bits/refwrap.h \
 	/usr/include/c++/9/bits/shared_ptr.h \
@@ -433,12 +389,15 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/c++/9/bits/uses_allocator.h \
 	/usr/include/c++/9/bits/vector.tcc \
 	/usr/include/c++/9/cctype \
+	/usr/include/c++/9/chrono \
 	/usr/include/c++/9/clocale \
 	/usr/include/c++/9/cmath \
+	/usr/include/c++/9/codecvt \
 	/usr/include/c++/9/cstddef \
 	/usr/include/c++/9/cstdint \
 	/usr/include/c++/9/cstdlib \
 	/usr/include/c++/9/cstring \
+	/usr/include/c++/9/ctime \
 	/usr/include/c++/9/cwchar \
 	/usr/include/c++/9/cwctype \
 	/usr/include/c++/9/debug/assertions.h \
@@ -452,14 +411,17 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/c++/9/ext/numeric_traits.h \
 	/usr/include/c++/9/ext/string_conversions.h \
 	/usr/include/c++/9/ext/type_traits.h \
+	/usr/include/c++/9/filesystem \
 	/usr/include/c++/9/functional \
 	/usr/include/c++/9/initializer_list \
+	/usr/include/c++/9/iomanip \
 	/usr/include/c++/9/ios \
 	/usr/include/c++/9/iosfwd \
 	/usr/include/c++/9/istream \
 	/usr/include/c++/9/iterator \
 	/usr/include/c++/9/limits \
 	/usr/include/c++/9/list \
+	/usr/include/c++/9/locale \
 	/usr/include/c++/9/map \
 	/usr/include/c++/9/memory \
 	/usr/include/c++/9/new \
@@ -474,6 +436,7 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/c++/9/streambuf \
 	/usr/include/c++/9/string \
 	/usr/include/c++/9/string_view \
+	/usr/include/c++/9/system_error \
 	/usr/include/c++/9/tr1/bessel_function.tcc \
 	/usr/include/c++/9/tr1/beta_function.tcc \
 	/usr/include/c++/9/tr1/ell_integral.tcc \
@@ -496,6 +459,7 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/ctype.h \
 	/usr/include/endian.h \
 	/usr/include/features.h \
+	/usr/include/libintl.h \
 	/usr/include/limits.h \
 	/usr/include/linux/limits.h \
 	/usr/include/locale.h \
@@ -580,7 +544,9 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
 	/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
 	/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
+	/usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
 	/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
+	/usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs.h \
 	/usr/include/x86_64-linux-gnu/sys/cdefs.h \

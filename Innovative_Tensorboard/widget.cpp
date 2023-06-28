@@ -18,7 +18,6 @@ Widget::Widget(QWidget *parent)
     ui->pushButton->setFlat(true);
     ui->pushButton->setStyleSheet("QPushButton { background-color: transparent; border: 0px; color: white; font-size: 22px;}"); // fully transparent
 
-
     // Metrics
     ui->pushButton_3->setText("Metrics");
     ui->pushButton_3->setFlat(true);
@@ -56,14 +55,15 @@ Widget::Widget(QWidget *parent)
 
     // warn finishing image names
     connect(accessManager, &QNetworkAccessManager::finished, this, &Widget::onDownloadImagelabels);
-}
 
+}
+/***********Widget***********/
 Widget::~Widget()
 {
     delete ui;
 }
 
-/*attach to ui labels within horizontal layout*/
+/****************Attach to UI labels within horizontal layout****************/
 QList<QLabel *> Widget::getLabels()
 {
     imageLabels.append(ui->img1);
@@ -73,7 +73,7 @@ QList<QLabel *> Widget::getLabels()
     return imageLabels;
 }
 
-// Return Labels for Image Names
+//*************** Return Labels for Image Names********************/
 QList<QLabel *> Widget::getImgNames()
 {
     imageNamesLabels.append(ui->imgNameFirst);
@@ -84,11 +84,12 @@ QList<QLabel *> Widget::getImgNames()
 }
 
 
-/*Retreive images 3 by 3*/
+/**********Retreive images 3 by 3*********************/
 void Widget::fetchImages()
 {
 
-    imgNamesList.clear();
+    //imgNamesList.clear();
+
     if (readEveryThree < imageUrls.size()){
 
         QNetworkRequest request;
@@ -96,6 +97,7 @@ void Widget::fetchImages()
 
         //request.setUrl(QUrl());
         request.setUrl(QUrl(name0));
+
         accessManager->get(request);
 
         // get image Name
@@ -105,6 +107,7 @@ void Widget::fetchImages()
         QFileInfo imgInfo(name0); // get path of image
 
         imgNamesList.append(imgInfo.fileName());
+
         qDebug() << imgInfo.fileName();
 
         if (readEveryThree + 1 < imageUrls.size()){
@@ -163,10 +166,10 @@ void Widget::fetchImages()
         //set readEverythree to 0
         readEveryThree=0;
 
-
 }
 
-// Download Finished Warning
+
+//*********/ Download Finished Warning/*********
 void Widget::onDownloadFinishedRest(QNetworkReply *reply)
 {
     if (reply->error() == QNetworkReply::NoError){
@@ -180,7 +183,9 @@ void Widget::onDownloadFinishedRest(QNetworkReply *reply)
             QLabel *label = imageLabels.at(loopIndex);
 
             label->setPixmap(pixmap);
+
             label->setAlignment(Qt::AlignCenter);
+
             loopIndex++;
 
         }else{
@@ -194,29 +199,28 @@ void Widget::onDownloadFinishedRest(QNetworkReply *reply)
 
 }
 
+/*****Download Image*******/
 void Widget::onDownloadImagelabels(QNetworkReply *reply)
 {
     if(reply->error()==QNetworkReply::NoError){
 
-        // img name
-        //QString img_name;
+        qDebug() << "Check Before: "<< imgNamesList.size();
 
-        // read all img names
-        //img_name.loadFromData(reply->readAll());
-
-        qDebug() << "Check Before: "<<imgNamesList.size();
-        if(loopIndex2 < getImgNames().size()){
+        if(loopIndex2 < getImgNames().size() && loopIndex2 < imgNamesList.size()){
 
             // label name
             QLabel *label_name =  imageNamesLabels.at(loopIndex2);
 
+            qDebug() << "Label Name: "<< label_name;
+
             // label name
             label_name->setText(imgNamesList.at(loopIndex2));
-
 
             label_name->setAlignment(Qt::AlignCenter);
 
             loopIndex2++;
+
+
         }else{
             qDebug() << "No Image Name to display or Update images";
         }
@@ -225,6 +229,7 @@ void Widget::onDownloadImagelabels(QNetworkReply *reply)
     }else{
         qDebug() << "Error is : " << reply->errorString();
     }
+
 
 }
 

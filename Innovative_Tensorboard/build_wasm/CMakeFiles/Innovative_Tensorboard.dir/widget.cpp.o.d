@@ -271,6 +271,8 @@ CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o: \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtGui/qguiapplication.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtGui/qinputmethod.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtGui/qguiapplication_platform.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtWidgets/QCheckBox \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtWidgets/qcheckbox.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtWidgets/QComboBox \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtWidgets/qcombobox.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtWidgets/qabstractitemdelegate.h \

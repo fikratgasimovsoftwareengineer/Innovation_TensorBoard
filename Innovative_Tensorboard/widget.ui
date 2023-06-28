@@ -286,23 +286,29 @@ color: rgb(252, 175, 62);</string>
      <property name="geometry">
       <rect>
        <x>310</x>
-       <y>100</y>
-       <width>92</width>
-       <height>23</height>
+       <y>101</y>
+       <width>16</width>
+       <height>16</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 121, 0);</string>
      </property>
      <property name="text">
       <string/>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox_2">
+    <widget class="QCheckBox" name="checkBox_3">
      <property name="geometry">
       <rect>
        <x>310</x>
        <y>180</y>
-       <width>92</width>
-       <height>23</height>
+       <width>16</width>
+       <height>16</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 121, 0);</string>
      </property>
      <property name="text">
       <string/>
