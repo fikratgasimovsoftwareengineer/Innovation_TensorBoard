@@ -7,8 +7,9 @@
 	"INCLUDE_DIR" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/Innovative_Tensorboard_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/icon_setting.png",
-		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/rotate.png"
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/question.png",
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/settings.png",
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/repeat.png"
 	],
 	"LOCK_FILE" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

@@ -1,9 +1,9 @@
 # ninja log v5
-0	85	1687100666478378969	Innovative_Tensorboard_autogen/timestamp	65ac1f133bcc993b
 0	85	1687100666478378969	Innovative_Tensorboard_autogen/mocs_compilation.cpp	65ac1f133bcc993b
-0	85	1687100666478378969	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/Innovative_Tensorboard_autogen/timestamp	65ac1f133bcc993b
 0	85	1687100666478378969	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/Innovative_Tensorboard_autogen/mocs_compilation.cpp	65ac1f133bcc993b
+0	85	1687100666478378969	Innovative_Tensorboard_autogen/timestamp	65ac1f133bcc993b
+85	1083	1687100667478530076	CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o	e21d9e564eec8e00
+0	85	1687100666478378969	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/Innovative_Tensorboard_autogen/timestamp	65ac1f133bcc993b
 85	974	1687100667370513787	CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o	8c9781f91cb11314
 85	1071	1687100667466528266	CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o	ff80ba84dcee780f
-85	1083	1687100667478530076	CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o	e21d9e564eec8e00
 1083	1294	1687100667686561447	Innovative_Tensorboard	fe7c5bc28ccc16f6

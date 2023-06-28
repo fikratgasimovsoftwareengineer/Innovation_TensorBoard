@@ -1,6 +1,7 @@
 /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/EWIEGA46WW/moc_widget.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/moc_predefs.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QDebug \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QFileInfo \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QIODevice \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QList \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QObject \
@@ -21,6 +22,7 @@
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbytearrayalgorithms.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbytearraylist.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbytearrayview.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qcalendar.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qchar.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qcompare.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qcompilerdetection.h \
@@ -30,7 +32,11 @@
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qcontainertools_impl.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qcontiguouscache.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qdatastream.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qdatetime.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qdebug.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qfile.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qfiledevice.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qfileinfo.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qflags.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qglobal.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qglobalstatic.h \
@@ -42,6 +48,7 @@
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qiterator.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qline.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qlist.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qlocale.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qlogging.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qmap.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qmargins.h \

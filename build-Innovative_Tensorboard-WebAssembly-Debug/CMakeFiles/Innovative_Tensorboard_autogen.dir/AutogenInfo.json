@@ -332,7 +332,8 @@
 		"/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
 		"/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake",
 		"/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake",
-		"/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake"
+		"/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
 	"DEP_FILE" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/Innovative_Tensorboard_autogen/deps",

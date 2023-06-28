@@ -69,11 +69,20 @@ include CMakeFiles/Innovative_Tensorboard.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Innovative_Tensorboard.dir/flags.make
 
+Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc
+Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Info.json
+Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/question.png
+Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/settings.png
+Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/repeat.png
+Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp: /home/fikrat/Qt/6.2.4/gcc_64/./libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for icons.qrc"
+	/home/fikrat/cmake-3.25.3-linux-x86_64/bin/cmake -E cmake_autorcc /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Info.json 
+
 CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/flags.make
 CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/includes_CXX.rsp
 CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o: Innovative_Tensorboard_autogen/mocs_compilation.cpp
 CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o"
 	/home/fikrat/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o -c /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/mocs_compilation.cpp
 
 CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.i: cmake_force
@@ -88,7 +97,7 @@ CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o: CMakeFiles/Innovative_Tensorbo
 CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/includes_CXX.rsp
 CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/main.cpp
 CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o"
 	/home/fikrat/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o -MF CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o.d -o CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o -c /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/main.cpp
 
 CMakeFiles/Innovative_Tensorboard.dir/main.cpp.i: cmake_force
@@ -103,7 +112,7 @@ CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o: CMakeFiles/Innovative_Tensor
 CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/includes_CXX.rsp
 CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp
 CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o"
 	/home/fikrat/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o -MF CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o.d -o CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o -c /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp
 
 CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.i: cmake_force
@@ -114,11 +123,27 @@ CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.s"
 	/home/fikrat/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp -o CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.s
 
+CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/flags.make
+CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/includes_CXX.rsp
+CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o: Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp
+CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o: CMakeFiles/Innovative_Tensorboard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o"
+	/home/fikrat/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o -MF CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o.d -o CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o -c /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp
+
+CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.i"
+	/home/fikrat/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp > CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.i
+
+CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.s"
+	/home/fikrat/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp -o CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.s
+
 # Object files for target Innovative_Tensorboard
 Innovative_Tensorboard_OBJECTS = \
 "CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o" \
-"CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o"
+"CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o" \
+"CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o"
 
 # External object files for target Innovative_Tensorboard
 Innovative_Tensorboard_EXTERNAL_OBJECTS = \
@@ -138,6 +163,7 @@ Innovative_Tensorboard_EXTERNAL_OBJECTS = \
 Innovative_Tensorboard.js: CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o
 Innovative_Tensorboard.js: CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o
 Innovative_Tensorboard.js: CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o
+Innovative_Tensorboard.js: CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/plugins/imageformats/objects-Release/QICNSPlugin_init/QICNSPlugin_init.cpp.o
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o
@@ -159,6 +185,7 @@ Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/lib/objects-Release/Gui
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/lib/libQt6Core.a
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/lib/libQt6Widgets.a
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/lib/libQt6Network.a
+Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/lib/libQt6Core.a
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/./plugins/imageformats/libqgif.a
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/./plugins/imageformats/libqicns.a
 Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/./plugins/imageformats/libqico.a
@@ -183,7 +210,7 @@ Innovative_Tensorboard.js: /home/fikrat/Qt/6.2.4/wasm_32/lib/libQt6BundledPcre2.
 Innovative_Tensorboard.js: CMakeFiles/Innovative_Tensorboard.dir/linkLibs.rsp
 Innovative_Tensorboard.js: CMakeFiles/Innovative_Tensorboard.dir/objects1
 Innovative_Tensorboard.js: CMakeFiles/Innovative_Tensorboard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Innovative_Tensorboard.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Innovative_Tensorboard.js"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Innovative_Tensorboard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -194,7 +221,7 @@ CMakeFiles/Innovative_Tensorboard.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/Innovative_Tensorboard.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/Innovative_Tensorboard.dir/clean
 
-CMakeFiles/Innovative_Tensorboard.dir/depend:
+CMakeFiles/Innovative_Tensorboard.dir/depend: Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp
 	cd /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/CMakeFiles/Innovative_Tensorboard.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Innovative_Tensorboard.dir/depend
 

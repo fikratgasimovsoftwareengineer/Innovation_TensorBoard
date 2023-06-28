@@ -50,14 +50,14 @@
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>1780</x>
-         <y>30</y>
-         <width>67</width>
-         <height>31</height>
+         <x>1730</x>
+         <y>20</y>
+         <width>81</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">image: url(:/Icons/icon_setting.png);</string>
+        <string notr="true">image: url(:/Icons/settings.png);</string>
        </property>
        <property name="text">
         <string/>
@@ -66,14 +66,14 @@
       <widget class="QLabel" name="label_7">
        <property name="geometry">
         <rect>
-         <x>1730</x>
-         <y>30</y>
-         <width>51</width>
-         <height>31</height>
+         <x>1690</x>
+         <y>20</y>
+         <width>61</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">image: url(:/Icons/rotate.png);</string>
+        <string notr="true">image: url(:/Icons/repeat.png);</string>
        </property>
        <property name="text">
         <string/>
@@ -82,7 +82,7 @@
       <widget class="QComboBox" name="comboBox">
        <property name="geometry">
         <rect>
-         <x>1580</x>
+         <x>1560</x>
          <y>20</y>
          <width>121</width>
          <height>31</height>
@@ -96,6 +96,7 @@
        </property>
        <property name="styleSheet">
         <string notr="true">border-color: rgb(245, 121, 0);
+color: rgb(255, 255, 255);
 font: 700 16pt &quot;Ubuntu Mono&quot;;
 border-color: rgb(245, 121, 0);</string>
        </property>
@@ -113,7 +114,7 @@ border-color: rgb(245, 121, 0);</string>
       <widget class="Line" name="line_2">
        <property name="geometry">
         <rect>
-         <x>1580</x>
+         <x>1560</x>
          <y>60</y>
          <width>118</width>
          <height>3</height>
@@ -126,9 +127,9 @@ border-color: rgb(245, 121, 0);</string>
       <widget class="QPushButton" name="pushButton">
        <property name="geometry">
         <rect>
-         <x>290</x>
+         <x>230</x>
          <y>20</y>
-         <width>191</width>
+         <width>201</width>
          <height>51</height>
         </rect>
        </property>
@@ -144,9 +145,9 @@ font: 15pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="pushButton_3">
        <property name="geometry">
         <rect>
-         <x>530</x>
+         <x>450</x>
          <y>20</y>
-         <width>191</width>
+         <width>141</width>
          <height>51</height>
         </rect>
        </property>
@@ -162,9 +163,9 @@ font: 15pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="pushButton_4">
        <property name="geometry">
         <rect>
-         <x>770</x>
+         <x>610</x>
          <y>20</y>
-         <width>191</width>
+         <width>221</width>
          <height>51</height>
         </rect>
        </property>
@@ -180,9 +181,9 @@ font: 15pt &quot;Ubuntu&quot;;</string>
       <widget class="QPushButton" name="pushButton_5">
        <property name="geometry">
         <rect>
-         <x>990</x>
+         <x>860</x>
          <y>20</y>
-         <width>191</width>
+         <width>241</width>
          <height>51</height>
         </rect>
        </property>
@@ -190,6 +191,22 @@ font: 15pt &quot;Ubuntu&quot;;</string>
         <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(245, 121, 0);
 font: 15pt &quot;Ubuntu&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>1790</x>
+         <y>20</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/Icons/question.png);</string>
        </property>
        <property name="text">
         <string/>
@@ -214,15 +231,83 @@ font: 15pt &quot;Ubuntu&quot;;</string>
    <widget class="QWidget" name="widget_3" native="true">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>0</y>
       <width>421</width>
       <height>1001</height>
      </rect>
     </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-style:italic;&quot;&gt;Train Session&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(238, 238, 236);</string>
     </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>90</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-style:italic;&quot;&gt;Train Session&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(252, 175, 62);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-style:italic;&quot;&gt;Train Session&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>170</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-style:italic;&quot;&gt;Train Session&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(252, 175, 62);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-style:italic;&quot;&gt;Val Session&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>100</y>
+       <width>92</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>180</y>
+       <width>92</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
    </widget>
    <widget class="QWidget" name="widget_4" native="true">
     <property name="geometry">
@@ -237,9 +322,9 @@ font: 15pt &quot;Ubuntu&quot;;</string>
    <widget class="QWidget" name="widget_5" native="true">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>420</x>
       <y>-20</y>
-      <width>1791</width>
+      <width>1621</width>
       <height>81</height>
      </rect>
     </property>
@@ -315,6 +400,61 @@ font: 15pt &quot;Ubuntu&quot;;</string>
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>90</y>
+      <width>1501</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayoutLabels">
+     <item>
+      <widget class="QLabel" name="imgNameThird">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="imgNameSecond">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="imgNameFirst">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>500</y>
+      <width>1501</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayoutImages"/>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>460</y>
+      <width>1501</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayoutLabels_2"/>
    </widget>
   </widget>
   <widget class="QPushButton" name="pushButton_2">

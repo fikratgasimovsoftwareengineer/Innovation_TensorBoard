@@ -17,6 +17,7 @@ set(PROJECT_SOURCES
         widget.cpp
         widget.h
         widget.ui
+        icons.qrc
 
 
 )
@@ -44,7 +45,7 @@ else()
     endif()
 endif()
 
-target_link_libraries(Innovative_Tensorboard PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Network)
+target_link_libraries(Innovative_Tensorboard PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Network Qt${QT_VERSION_MAJOR}::Core)
 
 set_target_properties(Innovative_Tensorboard PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com

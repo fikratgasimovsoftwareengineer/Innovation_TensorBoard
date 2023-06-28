@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>Icons/icon_setting.png</file>
-        <file>Icons/rotate.png</file>
+        <file>Icons/repeat.png</file>
+        <file>Icons/settings.png</file>
+        <file>Icons/question.png</file>
     </qresource>
 </RCC>

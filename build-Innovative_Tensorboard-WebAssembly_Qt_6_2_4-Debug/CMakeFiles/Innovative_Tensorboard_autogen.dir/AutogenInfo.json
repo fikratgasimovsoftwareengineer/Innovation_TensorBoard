@@ -3551,7 +3551,8 @@
 		"/home/fikrat/Qt/6.2.4/wasm_32/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake",
 		"/home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/wasm_shell.html",
 		"/home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/qtloader.js",
-		"/home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/qtlogo.svg"
+		"/home/fikrat/Qt/6.2.4/wasm_32/plugins/platforms/qtlogo.svg",
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
 	"DEP_FILE" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/deps",

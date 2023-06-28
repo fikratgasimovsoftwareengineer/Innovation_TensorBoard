@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QHBoxLayout>
@@ -36,8 +37,13 @@ public:
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
     QPushButton *pushButton_5;
+    QLabel *label_8;
     QWidget *widget_2;
     QWidget *widget_3;
+    QLabel *label_2;
+    QLabel *label_4;
+    QCheckBox *checkBox;
+    QCheckBox *checkBox_2;
     QWidget *widget_4;
     QWidget *widget_5;
     QWidget *gridLayoutWidget;
@@ -45,6 +51,15 @@ public:
     QLabel *img1;
     QLabel *img2;
     QLabel *img3;
+    QWidget *horizontalLayoutWidget;
+    QHBoxLayout *horizontalLayoutLabels;
+    QLabel *imgNameThird;
+    QLabel *imgNameSecond;
+    QLabel *imgNameFirst;
+    QWidget *horizontalLayoutWidget_2;
+    QHBoxLayout *horizontalLayoutImages;
+    QWidget *horizontalLayoutWidget_3;
+    QHBoxLayout *horizontalLayoutLabels_2;
     QPushButton *pushButton_2;
 
     void setupUi(QWidget *Widget)
@@ -68,49 +83,54 @@ public:
         label->setStyleSheet(QString::fromUtf8("background-color: rgb(245, 121, 0);"));
         label_6 = new QLabel(widget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(1780, 30, 67, 31));
-        label_6->setStyleSheet(QString::fromUtf8("image: url(:/Icons/icon_setting.png);"));
+        label_6->setGeometry(QRect(1730, 20, 81, 41));
+        label_6->setStyleSheet(QString::fromUtf8("image: url(:/Icons/settings.png);"));
         label_7 = new QLabel(widget);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(1730, 30, 51, 31));
-        label_7->setStyleSheet(QString::fromUtf8("image: url(:/Icons/rotate.png);"));
+        label_7->setGeometry(QRect(1690, 20, 61, 41));
+        label_7->setStyleSheet(QString::fromUtf8("image: url(:/Icons/repeat.png);"));
         comboBox = new QComboBox(widget);
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
-        comboBox->setGeometry(QRect(1580, 20, 121, 31));
+        comboBox->setGeometry(QRect(1560, 20, 121, 31));
         comboBox->setStyleSheet(QString::fromUtf8("border-color: rgb(245, 121, 0);\n"
+"color: rgb(255, 255, 255);\n"
 "font: 700 16pt \"Ubuntu Mono\";\n"
 "border-color: rgb(245, 121, 0);"));
         line_2 = new QFrame(widget);
         line_2->setObjectName(QString::fromUtf8("line_2"));
-        line_2->setGeometry(QRect(1580, 60, 118, 3));
+        line_2->setGeometry(QRect(1560, 60, 118, 3));
         line_2->setFrameShape(QFrame::HLine);
         line_2->setFrameShadow(QFrame::Sunken);
         pushButton = new QPushButton(widget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(290, 20, 191, 51));
+        pushButton->setGeometry(QRect(230, 20, 201, 51));
         pushButton->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(245, 121, 0);\n"
 "font: 15pt \"Ubuntu\";"));
         pushButton_3 = new QPushButton(widget);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(530, 20, 191, 51));
+        pushButton_3->setGeometry(QRect(450, 20, 141, 51));
         pushButton_3->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(245, 121, 0);\n"
 "font: 15pt \"Ubuntu\";"));
         pushButton_4 = new QPushButton(widget);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(770, 20, 191, 51));
+        pushButton_4->setGeometry(QRect(610, 20, 221, 51));
         pushButton_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(245, 121, 0);\n"
 "font: 15pt \"Ubuntu\";"));
         pushButton_5 = new QPushButton(widget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(990, 20, 191, 51));
+        pushButton_5->setGeometry(QRect(860, 20, 241, 51));
         pushButton_5->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(245, 121, 0);\n"
 "font: 15pt \"Ubuntu\";"));
+        label_8 = new QLabel(widget);
+        label_8->setObjectName(QString::fromUtf8("label_8"));
+        label_8->setGeometry(QRect(1790, 20, 81, 41));
+        label_8->setStyleSheet(QString::fromUtf8("image: url(:/Icons/question.png);"));
 
         verticalLayout->addWidget(widget);
 
@@ -120,14 +140,29 @@ public:
         widget_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         widget_3 = new QWidget(widget_2);
         widget_3->setObjectName(QString::fromUtf8("widget_3"));
-        widget_3->setGeometry(QRect(0, 0, 421, 1001));
+        widget_3->setGeometry(QRect(10, 0, 421, 1001));
         widget_3->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
+        label_2 = new QLabel(widget_3);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(130, 90, 141, 41));
+        label_2->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"color: rgb(252, 175, 62);"));
+        label_4 = new QLabel(widget_3);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setGeometry(QRect(120, 170, 141, 41));
+        label_4->setStyleSheet(QString::fromUtf8("color: rgb(252, 175, 62);"));
+        checkBox = new QCheckBox(widget_3);
+        checkBox->setObjectName(QString::fromUtf8("checkBox"));
+        checkBox->setGeometry(QRect(310, 100, 92, 23));
+        checkBox_2 = new QCheckBox(widget_3);
+        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
+        checkBox_2->setGeometry(QRect(310, 180, 92, 23));
         widget_4 = new QWidget(widget_2);
         widget_4->setObjectName(QString::fromUtf8("widget_4"));
         widget_4->setGeometry(QRect(250, -10, 1, 61));
         widget_5 = new QWidget(widget_2);
         widget_5->setObjectName(QString::fromUtf8("widget_5"));
-        widget_5->setGeometry(QRect(250, -20, 1791, 81));
+        widget_5->setGeometry(QRect(420, -20, 1621, 81));
         widget_5->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 236);"));
         gridLayoutWidget = new QWidget(widget_2);
         gridLayoutWidget->setObjectName(QString::fromUtf8("gridLayoutWidget"));
@@ -159,6 +194,39 @@ public:
 
         horizontalLayout->addWidget(img3);
 
+        horizontalLayoutWidget = new QWidget(widget_2);
+        horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
+        horizontalLayoutWidget->setGeometry(QRect(450, 90, 1501, 31));
+        horizontalLayoutLabels = new QHBoxLayout(horizontalLayoutWidget);
+        horizontalLayoutLabels->setObjectName(QString::fromUtf8("horizontalLayoutLabels"));
+        horizontalLayoutLabels->setContentsMargins(0, 0, 0, 0);
+        imgNameThird = new QLabel(horizontalLayoutWidget);
+        imgNameThird->setObjectName(QString::fromUtf8("imgNameThird"));
+
+        horizontalLayoutLabels->addWidget(imgNameThird);
+
+        imgNameSecond = new QLabel(horizontalLayoutWidget);
+        imgNameSecond->setObjectName(QString::fromUtf8("imgNameSecond"));
+
+        horizontalLayoutLabels->addWidget(imgNameSecond);
+
+        imgNameFirst = new QLabel(horizontalLayoutWidget);
+        imgNameFirst->setObjectName(QString::fromUtf8("imgNameFirst"));
+
+        horizontalLayoutLabels->addWidget(imgNameFirst);
+
+        horizontalLayoutWidget_2 = new QWidget(widget_2);
+        horizontalLayoutWidget_2->setObjectName(QString::fromUtf8("horizontalLayoutWidget_2"));
+        horizontalLayoutWidget_2->setGeometry(QRect(450, 500, 1501, 331));
+        horizontalLayoutImages = new QHBoxLayout(horizontalLayoutWidget_2);
+        horizontalLayoutImages->setObjectName(QString::fromUtf8("horizontalLayoutImages"));
+        horizontalLayoutImages->setContentsMargins(0, 0, 0, 0);
+        horizontalLayoutWidget_3 = new QWidget(widget_2);
+        horizontalLayoutWidget_3->setObjectName(QString::fromUtf8("horizontalLayoutWidget_3"));
+        horizontalLayoutWidget_3->setGeometry(QRect(450, 460, 1501, 31));
+        horizontalLayoutLabels_2 = new QHBoxLayout(horizontalLayoutWidget_3);
+        horizontalLayoutLabels_2->setObjectName(QString::fromUtf8("horizontalLayoutLabels_2"));
+        horizontalLayoutLabels_2->setContentsMargins(0, 0, 0, 0);
         pushButton_2 = new QPushButton(Widget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(1560, 1030, 211, 51));
@@ -190,9 +258,26 @@ public:
         pushButton_3->setText(QString());
         pushButton_4->setText(QString());
         pushButton_5->setText(QString());
+        label_8->setText(QString());
+#if QT_CONFIG(whatsthis)
+        widget_3->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+#if QT_CONFIG(whatsthis)
+        label_2->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        label_2->setText(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#if QT_CONFIG(whatsthis)
+        label_4->setWhatsThis(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-style:italic;\">Train Session</span></p></body></html>", nullptr));
+#endif // QT_CONFIG(whatsthis)
+        label_4->setText(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-style:italic;\">Val Session</span></p></body></html>", nullptr));
+        checkBox->setText(QString());
+        checkBox_2->setText(QString());
         img1->setText(QString());
         img2->setText(QString());
         img3->setText(QString());
+        imgNameThird->setText(QString());
+        imgNameSecond->setText(QString());
+        imgNameFirst->setText(QString());
         pushButton_2->setText(QString());
     } // retranslateUi
 

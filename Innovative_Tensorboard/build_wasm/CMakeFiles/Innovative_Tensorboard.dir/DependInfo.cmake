@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp" "CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o" "gcc" "CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o.d"
   "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/build_wasm/Innovative_Tensorboard_autogen/mocs_compilation.cpp" "CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o.d"
   "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/main.cpp" "CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o" "gcc" "CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o.d"
   "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp" "CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o" "gcc" "CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o.d"
