@@ -123,7 +123,7 @@ public:
 "font: 15pt \"Ubuntu\";"));
         pushButton_5 = new QPushButton(widget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(860, 20, 241, 51));
+        pushButton_5->setGeometry(QRect(860, 20, 261, 51));
         pushButton_5->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(245, 121, 0);\n"
 "font: 15pt \"Ubuntu\";"));
