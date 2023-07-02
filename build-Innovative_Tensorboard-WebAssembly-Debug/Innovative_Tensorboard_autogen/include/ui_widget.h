@@ -58,9 +58,14 @@ public:
     QLabel *imgNameFirst;
     QWidget *horizontalLayoutWidget_2;
     QHBoxLayout *horizontalLayoutImages;
+    QLabel *img5;
+    QLabel *img4;
+    QLabel *img6;
     QWidget *horizontalLayoutWidget_3;
     QHBoxLayout *horizontalLayoutLabels_2;
-    QPushButton *pushButton_2;
+    QLabel *imgName6;
+    QLabel *imgName5;
+    QLabel *imgName4;
 
     void setupUi(QWidget *Widget)
     {
@@ -123,7 +128,7 @@ public:
 "font: 15pt \"Ubuntu\";"));
         pushButton_5 = new QPushButton(widget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(860, 20, 241, 51));
+        pushButton_5->setGeometry(QRect(860, 20, 261, 51));
         pushButton_5->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "background-color: rgb(245, 121, 0);\n"
 "font: 15pt \"Ubuntu\";"));
@@ -223,18 +228,42 @@ public:
         horizontalLayoutImages = new QHBoxLayout(horizontalLayoutWidget_2);
         horizontalLayoutImages->setObjectName(QString::fromUtf8("horizontalLayoutImages"));
         horizontalLayoutImages->setContentsMargins(0, 0, 0, 0);
+        img5 = new QLabel(horizontalLayoutWidget_2);
+        img5->setObjectName(QString::fromUtf8("img5"));
+
+        horizontalLayoutImages->addWidget(img5);
+
+        img4 = new QLabel(horizontalLayoutWidget_2);
+        img4->setObjectName(QString::fromUtf8("img4"));
+
+        horizontalLayoutImages->addWidget(img4);
+
+        img6 = new QLabel(horizontalLayoutWidget_2);
+        img6->setObjectName(QString::fromUtf8("img6"));
+
+        horizontalLayoutImages->addWidget(img6);
+
         horizontalLayoutWidget_3 = new QWidget(widget_2);
         horizontalLayoutWidget_3->setObjectName(QString::fromUtf8("horizontalLayoutWidget_3"));
         horizontalLayoutWidget_3->setGeometry(QRect(450, 460, 1501, 31));
         horizontalLayoutLabels_2 = new QHBoxLayout(horizontalLayoutWidget_3);
         horizontalLayoutLabels_2->setObjectName(QString::fromUtf8("horizontalLayoutLabels_2"));
         horizontalLayoutLabels_2->setContentsMargins(0, 0, 0, 0);
-        pushButton_2 = new QPushButton(Widget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(1560, 1030, 211, 51));
-        pushButton_2->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"background-color: rgb(245, 121, 0);\n"
-"font: 15pt \"Ubuntu\";"));
+        imgName6 = new QLabel(horizontalLayoutWidget_3);
+        imgName6->setObjectName(QString::fromUtf8("imgName6"));
+
+        horizontalLayoutLabels_2->addWidget(imgName6);
+
+        imgName5 = new QLabel(horizontalLayoutWidget_3);
+        imgName5->setObjectName(QString::fromUtf8("imgName5"));
+
+        horizontalLayoutLabels_2->addWidget(imgName5);
+
+        imgName4 = new QLabel(horizontalLayoutWidget_3);
+        imgName4->setObjectName(QString::fromUtf8("imgName4"));
+
+        horizontalLayoutLabels_2->addWidget(imgName4);
+
 
         retranslateUi(Widget);
 
@@ -280,7 +309,12 @@ public:
         imgNameThird->setText(QString());
         imgNameSecond->setText(QString());
         imgNameFirst->setText(QString());
-        pushButton_2->setText(QString());
+        img5->setText(QString());
+        img4->setText(QString());
+        img6->setText(QString());
+        imgName6->setText(QString());
+        imgName5->setText(QString());
+        imgName4->setText(QString());
     } // retranslateUi
 
 };

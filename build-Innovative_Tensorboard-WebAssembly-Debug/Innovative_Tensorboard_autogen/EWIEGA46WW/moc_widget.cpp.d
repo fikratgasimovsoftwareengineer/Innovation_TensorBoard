@@ -1,5 +1,7 @@
 /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/Innovative_Tensorboard_autogen/EWIEGA46WW/moc_widget.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h \
   /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/Innovative_Tensorboard_autogen/moc_predefs.h \
+  /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/operationHandler.h \
+  /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QDebug \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFileInfo \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFlags \

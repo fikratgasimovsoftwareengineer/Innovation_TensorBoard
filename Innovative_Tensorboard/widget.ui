@@ -449,7 +449,29 @@ color: rgb(252, 175, 62);</string>
       <height>331</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayoutImages"/>
+    <layout class="QHBoxLayout" name="horizontalLayoutImages">
+     <item>
+      <widget class="QLabel" name="img5">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="img4">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="img6">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
    <widget class="QWidget" name="horizontalLayoutWidget_3">
     <property name="geometry">
@@ -460,26 +482,30 @@ color: rgb(252, 175, 62);</string>
       <height>31</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayoutLabels_2"/>
+    <layout class="QHBoxLayout" name="horizontalLayoutLabels_2">
+     <item>
+      <widget class="QLabel" name="imgName6">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="imgName5">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="imgName4">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
-  </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>1560</x>
-     <y>1030</y>
-     <width>211</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(245, 121, 0);
-font: 15pt &quot;Ubuntu&quot;;</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
   </widget>
  </widget>
  <resources/>

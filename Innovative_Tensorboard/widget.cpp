@@ -14,7 +14,7 @@ Widget::Widget(QWidget *parent)
     ui->setupUi(this);
 
     // Predicted Images
-    ui->pushButton->setText("Predicted Images");
+    ui->pushButton->setText("Raw Images");
     ui->pushButton->setFlat(true);
     ui->pushButton->setStyleSheet("QPushButton { background-color: transparent; border: 0px; color: white; font-size: 22px;}"); // fully transparent
 
@@ -29,23 +29,26 @@ Widget::Widget(QWidget *parent)
     ui->pushButton_4->setStyleSheet("QPushButton { background-color: transparent; border: 0px; color: white; font-size: 22px;}"); // fully transparent
 
     // Postprocessed Images
-    ui->pushButton_5->setText("Postprocessed Images");
+    ui->pushButton_5->setText("Predicted Images");
     ui->pushButton_5->setFlat(true);
     ui->pushButton_5->setStyleSheet("QPushButton { background-color: transparent; border: 0px; color: white; font-size: 22px;}"); // fully transparent
 
+
+    // Create an instance of predictedResults and fetch images
+    instancePredicted = new predictedResults(this);
+
+
     //Image Urls
     imageUrls = {
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0025.jpg?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0026.JPG?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0027.JPG?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0028.JPG?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0029.JPG?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0030.JPG?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0031.JPG?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0032.JPG?raw=true",
-        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/DJI_0033.JPG?raw=true"
+        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/test_BLI_0001.JPG?raw=true",
+        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/test_BLI_0003.JPG?raw=true",
+        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/test_BLI_0005.JPG?raw=true",
+        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/test_BLI_0006.JPG?raw=true",
+        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/test_BLI_0009.JPG?raw=true",
+        "https://github.com/fikratgasimovsoftwareengineer/Host_Images/blob/main/test_BRK_0009.JPG?raw=true"
 
     };
+
 
     // connect to Raw Images
     connect(ui->pushButton, &QPushButton::clicked, this, &Widget::fetchImages);
@@ -64,7 +67,7 @@ Widget::~Widget()
 }
 
 /****************Attach to UI labels within horizontal layout****************/
-QList<QLabel *> Widget::getLabels()
+QList<QLabel *>Widget::getLabels()
 {
     imageLabels.append(ui->img1);
     imageLabels.append(ui->img2);
@@ -82,6 +85,13 @@ QList<QLabel *> Widget::getImgNames()
 
     return imageNamesLabels;
 }
+
+QLabel *Widget::getLeb1()
+{
+    return ui->img4;
+}
+
+
 
 
 /**********Retreive images 3 by 3*********************/

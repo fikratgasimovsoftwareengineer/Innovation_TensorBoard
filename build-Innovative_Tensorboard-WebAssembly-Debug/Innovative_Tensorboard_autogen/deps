@@ -2,6 +2,9 @@ Innovative_Tensorboard_autogen/timestamp: \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/CMakeLists.txt \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/main.cpp \
+	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/operationHandler.h \
+	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.cpp \
+	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.h \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp \
 	/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h \
 	/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/.qtc/package-manager/auto-setup.cmake \

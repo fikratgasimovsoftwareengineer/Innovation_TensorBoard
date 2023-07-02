@@ -13,11 +13,23 @@
 #include <QStringList>
 #include <QFileInfo>
 
+#include "operationHandler.h"
+#include "predictedresults.h"
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
 
-class Widget : public QWidget
+
+struct uiComponent{
+
+
+
+};
+
+
+class Widget : public QWidget, public OpearationHandler
 {
     Q_OBJECT
 
@@ -26,21 +38,22 @@ public:
     ~Widget();
 
     // Get Labels for Images
-    QList<QLabel*> getLabels();
+    QList<QLabel*> getLabels() override;
 
     // get Labels for Labels
-    QList<QLabel*> getImgNames();
+    QList<QLabel*> getImgNames() override;
+
+    QLabel* getLeb1();
 
 public slots:
     void fetchImages();
 
-
-
 private slots:
     // reply finished
-    void onDownloadFinishedRest(QNetworkReply*);
+    void onDownloadFinishedRest(QNetworkReply*) override;
 
-   void onDownloadImagelabels(QNetworkReply*);
+   void onDownloadImagelabels(QNetworkReply*) override;
+
 
 private:
     Ui::Widget *ui;
@@ -72,6 +85,10 @@ private:
     QString name0;
     QString name1;
     QString name2;
+
+    predictedResults *instancePredicted;
+
+
 };
 
 

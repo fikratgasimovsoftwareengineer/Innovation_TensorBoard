@@ -73,6 +73,14 @@ build CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o: CXX_COMPILER__Innovati
   OBJECT_DIR = CMakeFiles/Innovative_Tensorboard.dir
   OBJECT_FILE_DIR = CMakeFiles/Innovative_Tensorboard.dir
 
+build CMakeFiles/Innovative_Tensorboard.dir/predictedresults.cpp.o: CXX_COMPILER__Innovative_Tensorboard_Debug /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.cpp || cmake_object_order_depends_target_Innovative_Tensorboard
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Innovative_Tensorboard.dir/predictedresults.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fPIC -pthread -std=gnu++17
+  INCLUDES = -I/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/Innovative_Tensorboard_autogen/include -isystem /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore -isystem /home/fikrat/Qt/6.2.4/gcc_64/include -isystem /home/fikrat/Qt/6.2.4/gcc_64/mkspecs/linux-g++ -isystem /home/fikrat/Qt/6.2.4/gcc_64/include/QtWidgets -isystem /home/fikrat/Qt/6.2.4/gcc_64/include/QtGui -isystem /home/fikrat/Qt/6.2.4/gcc_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles/Innovative_Tensorboard.dir
+  OBJECT_FILE_DIR = CMakeFiles/Innovative_Tensorboard.dir
+
 build CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o: CXX_COMPILER__Innovative_Tensorboard_Debug /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp || cmake_object_order_depends_target_Innovative_Tensorboard
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o.d
@@ -89,7 +97,7 @@ build CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEG
 #############################################
 # Link the executable Innovative_Tensorboard
 
-build Innovative_Tensorboard: CXX_EXECUTABLE_LINKER__Innovative_Tensorboard_Debug CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o | /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Widgets.so.6.2.4 /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Network.so.6.2.4 /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Gui.so.6.2.4 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Core.so.6.2.4 || Innovative_Tensorboard_autogen Innovative_Tensorboard_autogen_timestamp_deps
+build Innovative_Tensorboard: CXX_EXECUTABLE_LINKER__Innovative_Tensorboard_Debug CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/mocs_compilation.cpp.o CMakeFiles/Innovative_Tensorboard.dir/main.cpp.o CMakeFiles/Innovative_Tensorboard.dir/widget.cpp.o CMakeFiles/Innovative_Tensorboard.dir/predictedresults.cpp.o CMakeFiles/Innovative_Tensorboard.dir/Innovative_Tensorboard_autogen/EWIEGA46WW/qrc_icons.cpp.o | /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Widgets.so.6.2.4 /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Network.so.6.2.4 /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Gui.so.6.2.4 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Core.so.6.2.4 || Innovative_Tensorboard_autogen Innovative_Tensorboard_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/fikrat/Qt/6.2.4/gcc_64/lib:  /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Widgets.so.6.2.4  /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Network.so.6.2.4  /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Gui.so.6.2.4  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/fikrat/Qt/6.2.4/gcc_64/lib/libQt6Core.so.6.2.4  -pthread
   OBJECT_DIR = CMakeFiles/Innovative_Tensorboard.dir

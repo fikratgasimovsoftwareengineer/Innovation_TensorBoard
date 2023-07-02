@@ -18,6 +18,10 @@ set(PROJECT_SOURCES
         widget.h
         widget.ui
         icons.qrc
+        operationHandler.h
+        predictedresults.cpp
+        predictedresults.h
+
 
 
 )

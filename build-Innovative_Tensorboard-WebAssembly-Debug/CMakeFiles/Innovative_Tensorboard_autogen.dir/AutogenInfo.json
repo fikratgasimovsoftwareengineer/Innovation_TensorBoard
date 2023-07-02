@@ -341,6 +341,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/operationHandler.h",
+			"MU",
+			"EWIEGA46WW/moc_operationHandler.cpp",
+			null
+		],
+		[
+			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.h",
+			"MU",
+			"EWIEGA46WW/moc_predictedresults.cpp",
+			null
+		],
+		[
 			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -400,6 +412,11 @@
 	[
 		[
 			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.cpp",
 			"MU",
 			null
 		],
