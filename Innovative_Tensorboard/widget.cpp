@@ -35,8 +35,7 @@ Widget::Widget(QWidget *parent)
 
 
     // Create an instance of predictedResults and fetch images
-    instancePredicted = new predictedResults(this);
-
+    instancePredicted = new predictedResults(ui->pushButton_5, getPredictedImgLabels(), getPredictedLabels(), this);
 
     //Image Urls
     imageUrls = {
@@ -58,6 +57,7 @@ Widget::Widget(QWidget *parent)
 
     // warn finishing image names
     connect(accessManager, &QNetworkAccessManager::finished, this, &Widget::onDownloadImagelabels);
+
 
 }
 /***********Widget***********/
@@ -86,12 +86,24 @@ QList<QLabel *> Widget::getImgNames()
     return imageNamesLabels;
 }
 
-QLabel *Widget::getLeb1()
+QList<QLabel *> Widget::getPredictedImgLabels()
 {
-    return ui->img4;
+    predictedImgLabels.append(ui->img4);
+    predictedImgLabels.append(ui->img5);
+    predictedImgLabels.append(ui->img6);
+    qDebug() << "image labels :"<<predictedImgLabels;
+    return predictedImgLabels;
 }
 
+QList<QLabel *> Widget::getPredictedLabels()
+{
 
+    predictedLabels.append(ui->imgName4);
+    predictedLabels.append(ui->imgName5);
+    predictedLabels.append(ui->imgName6);
+    qDebug() << "Labels :"<<predictedLabels;
+    return predictedLabels;
+}
 
 
 /**********Retreive images 3 by 3*********************/
@@ -112,13 +124,13 @@ void Widget::fetchImages()
 
         // get image Name
 
-        qDebug() << imageUrls[readEveryThree];
+       // qDebug() << imageUrls[readEveryThree];
 
         QFileInfo imgInfo(name0); // get path of image
 
         imgNamesList.append(imgInfo.fileName());
 
-        qDebug() << imgInfo.fileName();
+       // qDebug() << imgInfo.fileName();
 
         if (readEveryThree + 1 < imageUrls.size()){
 
@@ -131,13 +143,13 @@ void Widget::fetchImages()
             //request2.setUrl(QUrl());
             accessManager->get(request2);
 
-            qDebug() << imageUrls[readEveryThree+1];
+            //qDebug() << imageUrls[readEveryThree+1];
 
             // get image Name
             QFileInfo imgInfo2(name1); // get path of image
 
             imgNamesList.append(imgInfo2.fileName());
-            qDebug() << imgInfo2.fileName();
+            //qDebug() << imgInfo2.fileName();
 
             if (readEveryThree+2 < imageUrls.size()){
 
@@ -152,15 +164,15 @@ void Widget::fetchImages()
                 accessManager->get(request3);
                 // get image Name
 
-                qDebug() << imageUrls[readEveryThree+2];
+                //qDebug() << imageUrls[readEveryThree+2];
 
                 // get image Name
                 QFileInfo imgInfo3(name2); // get path of image
 
                 imgNamesList.append(imgInfo3.fileName());
 
-                qDebug() << "Third Image Name : "<<imgInfo3.fileName();
-                qDebug() << "Size: " << imgNamesList.size();
+                //qDebug() << "Third Image Name : "<<imgInfo3.fileName();
+                //qDebug() << "Size: " << imgNamesList.size();
 
             } // end third if
 
@@ -175,6 +187,7 @@ void Widget::fetchImages()
 
         //set readEverythree to 0
         readEveryThree=0;
+
 
 }
 
@@ -200,6 +213,7 @@ void Widget::onDownloadFinishedRest(QNetworkReply *reply)
 
         }else{
             qDebug() << "No More labels to display";
+
         }
     }
 
@@ -214,14 +228,14 @@ void Widget::onDownloadImagelabels(QNetworkReply *reply)
 {
     if(reply->error()==QNetworkReply::NoError){
 
-        qDebug() << "Check Before: "<< imgNamesList.size();
+        //qDebug() << "Check Before: "<< imgNamesList.size();
 
         if(loopIndex2 < getImgNames().size() && loopIndex2 < imgNamesList.size()){
 
             // label name
             QLabel *label_name =  imageNamesLabels.at(loopIndex2);
 
-            qDebug() << "Label Name: "<< label_name;
+            qDebug() << "***Label Name: ****"<< label_name;
 
             // label name
             label_name->setText(imgNamesList.at(loopIndex2));
@@ -233,6 +247,7 @@ void Widget::onDownloadImagelabels(QNetworkReply *reply)
 
         }else{
             qDebug() << "No Image Name to display or Update images";
+
         }
 
 

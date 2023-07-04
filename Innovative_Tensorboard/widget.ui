@@ -220,7 +220,7 @@ font: 15pt &quot;Ubuntu&quot;;</string>
    <property name="geometry">
     <rect>
      <x>-120</x>
-     <y>80</y>
+     <y>70</y>
      <width>2041</width>
      <height>1231</height>
     </rect>
@@ -440,25 +440,49 @@ color: rgb(252, 175, 62);</string>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <widget class="QWidget" name="gridLayoutWidget_2">
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>500</y>
+      <y>490</y>
       <width>1501</width>
-      <height>331</height>
+      <height>301</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayoutImages">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
-      <widget class="QLabel" name="img5">
+      <widget class="QLabel" name="img4">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>500</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
        <property name="text">
         <string/>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="img4">
+      <widget class="QLabel" name="img5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>500</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
        <property name="text">
         <string/>
        </property>
@@ -466,6 +490,18 @@ color: rgb(252, 175, 62);</string>
      </item>
      <item>
       <widget class="QLabel" name="img6">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>500</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
        <property name="text">
         <string/>
        </property>
@@ -473,18 +509,18 @@ color: rgb(252, 175, 62);</string>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>460</y>
+      <y>450</y>
       <width>1501</width>
       <height>31</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayoutLabels_2">
      <item>
-      <widget class="QLabel" name="imgName6">
+      <widget class="QLabel" name="imgName4">
        <property name="text">
         <string/>
        </property>
@@ -498,7 +534,7 @@ color: rgb(252, 175, 62);</string>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="imgName4">
+      <widget class="QLabel" name="imgName6">
        <property name="text">
         <string/>
        </property>

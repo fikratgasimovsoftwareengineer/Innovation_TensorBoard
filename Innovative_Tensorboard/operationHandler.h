@@ -18,6 +18,7 @@ public:
     // get Labels for Labels
     virtual QList<QLabel*> getImgNames() = 0;
 
+
 public slots:
     // reply finished
     virtual void onDownloadFinishedRest(QNetworkReply*) = 0;

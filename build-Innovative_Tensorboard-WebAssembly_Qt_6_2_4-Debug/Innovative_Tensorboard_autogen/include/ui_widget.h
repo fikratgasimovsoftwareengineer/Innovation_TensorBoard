@@ -56,16 +56,16 @@ public:
     QLabel *imgNameThird;
     QLabel *imgNameSecond;
     QLabel *imgNameFirst;
-    QWidget *horizontalLayoutWidget_2;
-    QHBoxLayout *horizontalLayoutImages;
-    QLabel *img5;
+    QWidget *gridLayoutWidget_2;
+    QHBoxLayout *horizontalLayout_2;
     QLabel *img4;
+    QLabel *img5;
     QLabel *img6;
-    QWidget *horizontalLayoutWidget_3;
+    QWidget *horizontalLayoutWidget_2;
     QHBoxLayout *horizontalLayoutLabels_2;
-    QLabel *imgName6;
-    QLabel *imgName5;
     QLabel *imgName4;
+    QLabel *imgName5;
+    QLabel *imgName6;
 
     void setupUi(QWidget *Widget)
     {
@@ -141,7 +141,7 @@ public:
 
         widget_2 = new QWidget(Widget);
         widget_2->setObjectName(QString::fromUtf8("widget_2"));
-        widget_2->setGeometry(QRect(-120, 80, 2041, 1231));
+        widget_2->setGeometry(QRect(-120, 70, 2041, 1231));
         widget_2->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         widget_3 = new QWidget(widget_2);
         widget_3->setObjectName(QString::fromUtf8("widget_3"));
@@ -222,47 +222,56 @@ public:
 
         horizontalLayoutLabels->addWidget(imgNameFirst);
 
+        gridLayoutWidget_2 = new QWidget(widget_2);
+        gridLayoutWidget_2->setObjectName(QString::fromUtf8("gridLayoutWidget_2"));
+        gridLayoutWidget_2->setGeometry(QRect(450, 490, 1501, 301));
+        horizontalLayout_2 = new QHBoxLayout(gridLayoutWidget_2);
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
+        img4 = new QLabel(gridLayoutWidget_2);
+        img4->setObjectName(QString::fromUtf8("img4"));
+        img4->setEnabled(true);
+        img4->setMaximumSize(QSize(500, 16777215));
+        img4->setStyleSheet(QString::fromUtf8(""));
+
+        horizontalLayout_2->addWidget(img4);
+
+        img5 = new QLabel(gridLayoutWidget_2);
+        img5->setObjectName(QString::fromUtf8("img5"));
+        img5->setEnabled(true);
+        img5->setMaximumSize(QSize(500, 16777215));
+        img5->setStyleSheet(QString::fromUtf8(""));
+
+        horizontalLayout_2->addWidget(img5);
+
+        img6 = new QLabel(gridLayoutWidget_2);
+        img6->setObjectName(QString::fromUtf8("img6"));
+        img6->setEnabled(true);
+        img6->setMaximumSize(QSize(500, 16777215));
+        img6->setStyleSheet(QString::fromUtf8(""));
+
+        horizontalLayout_2->addWidget(img6);
+
         horizontalLayoutWidget_2 = new QWidget(widget_2);
         horizontalLayoutWidget_2->setObjectName(QString::fromUtf8("horizontalLayoutWidget_2"));
-        horizontalLayoutWidget_2->setGeometry(QRect(450, 500, 1501, 331));
-        horizontalLayoutImages = new QHBoxLayout(horizontalLayoutWidget_2);
-        horizontalLayoutImages->setObjectName(QString::fromUtf8("horizontalLayoutImages"));
-        horizontalLayoutImages->setContentsMargins(0, 0, 0, 0);
-        img5 = new QLabel(horizontalLayoutWidget_2);
-        img5->setObjectName(QString::fromUtf8("img5"));
-
-        horizontalLayoutImages->addWidget(img5);
-
-        img4 = new QLabel(horizontalLayoutWidget_2);
-        img4->setObjectName(QString::fromUtf8("img4"));
-
-        horizontalLayoutImages->addWidget(img4);
-
-        img6 = new QLabel(horizontalLayoutWidget_2);
-        img6->setObjectName(QString::fromUtf8("img6"));
-
-        horizontalLayoutImages->addWidget(img6);
-
-        horizontalLayoutWidget_3 = new QWidget(widget_2);
-        horizontalLayoutWidget_3->setObjectName(QString::fromUtf8("horizontalLayoutWidget_3"));
-        horizontalLayoutWidget_3->setGeometry(QRect(450, 460, 1501, 31));
-        horizontalLayoutLabels_2 = new QHBoxLayout(horizontalLayoutWidget_3);
+        horizontalLayoutWidget_2->setGeometry(QRect(450, 450, 1501, 31));
+        horizontalLayoutLabels_2 = new QHBoxLayout(horizontalLayoutWidget_2);
         horizontalLayoutLabels_2->setObjectName(QString::fromUtf8("horizontalLayoutLabels_2"));
         horizontalLayoutLabels_2->setContentsMargins(0, 0, 0, 0);
-        imgName6 = new QLabel(horizontalLayoutWidget_3);
-        imgName6->setObjectName(QString::fromUtf8("imgName6"));
+        imgName4 = new QLabel(horizontalLayoutWidget_2);
+        imgName4->setObjectName(QString::fromUtf8("imgName4"));
 
-        horizontalLayoutLabels_2->addWidget(imgName6);
+        horizontalLayoutLabels_2->addWidget(imgName4);
 
-        imgName5 = new QLabel(horizontalLayoutWidget_3);
+        imgName5 = new QLabel(horizontalLayoutWidget_2);
         imgName5->setObjectName(QString::fromUtf8("imgName5"));
 
         horizontalLayoutLabels_2->addWidget(imgName5);
 
-        imgName4 = new QLabel(horizontalLayoutWidget_3);
-        imgName4->setObjectName(QString::fromUtf8("imgName4"));
+        imgName6 = new QLabel(horizontalLayoutWidget_2);
+        imgName6->setObjectName(QString::fromUtf8("imgName6"));
 
-        horizontalLayoutLabels_2->addWidget(imgName4);
+        horizontalLayoutLabels_2->addWidget(imgName6);
 
 
         retranslateUi(Widget);
@@ -309,12 +318,12 @@ public:
         imgNameThird->setText(QString());
         imgNameSecond->setText(QString());
         imgNameFirst->setText(QString());
-        img5->setText(QString());
         img4->setText(QString());
+        img5->setText(QString());
         img6->setText(QString());
-        imgName6->setText(QString());
-        imgName5->setText(QString());
         imgName4->setText(QString());
+        imgName5->setText(QString());
+        imgName6->setText(QString());
     } // retranslateUi
 
 };

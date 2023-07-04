@@ -1,7 +1,10 @@
 #include "predictedresults.h"
 
-predictedResults::predictedResults(QWidget *parent)
+predictedResults::predictedResults(QPushButton *button, QList<QLabel*>getLabels, QList<QLabel*>getImgNames, QWidget *parent)
     : QWidget{parent},
+    button(button),
+    imgLabels(getLabels),
+    imgNamesLabels(getImgNames),
     managerPredict(new QNetworkAccessManager(this)),
     readEveryPredicted(0),
     loopIndex(0),
@@ -21,21 +24,20 @@ predictedResults::predictedResults(QWidget *parent)
     };
 
 
-    /*connect(pointer->getLeb1(), &QPushButton::clicked, this, &predictedResults::fetchPredictedImages);
+    connect(this->button, &QPushButton::clicked, this, &predictedResults::fetchPredictedImages);
 
     // warn finishing statements: image files
     connect(managerPredict, &QNetworkAccessManager::finished, this, &predictedResults::onDownloadFinishedRest);
 
     // warn finishing image names
-    connect(managerPredict, &QNetworkAccessManager::finished, this, &predictedResults::onDownloadImagelabels);*/
+    connect(managerPredict, &QNetworkAccessManager::finished, this, &predictedResults::onDownloadImagelabels);
 
 }
 
-/*QList<QLabel*>predictedResults::getLabels() {
+QList<QLabel*>predictedResults::getLabels() {
 
-    imgLabels.append(uiComponents->img4);
-    imgLabels.append(uiComponents->img5);
-    imgLabels.append(uiComponents->img6);
+    qDebug() << "Image Labels :"<< imgLabels;
+
 
     return imgLabels;
 }
@@ -43,77 +45,55 @@ predictedResults::predictedResults(QWidget *parent)
 
 QList<QLabel*>predictedResults::getImgNames(){
 
-
-    imgNamesLabels.append(uiComponents->imgName4);
-    imgNamesLabels.append(uiComponents->imgName5);
-    imgNamesLabels.append(uiComponents->imgName6);
+    qDebug() << "Image Names :"<<imgNamesLabels;
 
     return imgNamesLabels;
-}*/
+}
 
 void predictedResults::fetchPredictedImages()
 {
-    //imgNamesList.clear();
+    imgNames.clear();
 
     if (readEveryPredicted < imagePredicted.size()){
 
         QNetworkRequest request;
         name4 = "https://cors-anywhere.herokuapp.com/" + imagePredicted[readEveryPredicted];
-
         //request.setUrl(QUrl());
         request.setUrl(QUrl(name4));
-
         managerPredict->get(request);
-
         // get image Name
-
         qDebug() << imagePredicted[readEveryPredicted];
-
         QFileInfo imgInfo(name4); // get path of image
-
         imgNames.append(imgInfo.fileName());
-
         qDebug() << imgInfo.fileName();
 
+
+
+
         if (readEveryPredicted + 1 < imagePredicted.size()){
-
             QNetworkRequest request2;
-
             name5 = "https://cors-anywhere.herokuapp.com/" + imagePredicted[readEveryPredicted+1];
-
             request2.setUrl(QUrl(name5));
-
             //request2.setUrl(QUrl());
             managerPredict->get(request2);
-
             qDebug() << imagePredicted[readEveryPredicted+1];
-
             // get image Name
             QFileInfo imgInfo2(name5); // get path of image
-
             imgNames.append(imgInfo2.fileName());
             qDebug() << imgInfo2.fileName();
 
+
             if (readEveryPredicted+2 < imagePredicted.size()){
-
-                name5 = "https://cors-anywhere.herokuapp.com/" + imagePredicted[readEveryPredicted+2];
-
+                name6 = "https://cors-anywhere.herokuapp.com/" + imagePredicted[readEveryPredicted+2];
                 QNetworkRequest request3;
-
                 request3.setUrl(QUrl(name6));
-
                 // request3.setUrl(QUrl("https://cors-anywhere.herokuapp.com/" + imageUrls[readEveryThree+2]));
-
                 managerPredict->get(request3);
                 // get image Name
-
                 qDebug() << imagePredicted[readEveryPredicted+2];
-
                 // get image Name
                 QFileInfo imgInfo3(name6); // get path of image
-
                 imgNames.append(imgInfo3.fileName());
-
                 qDebug() << "Third Image Name : "<<imgInfo3.fileName();
                 qDebug() << "Size: " << imgNames.size();
 
@@ -126,10 +106,13 @@ void predictedResults::fetchPredictedImages()
     readEveryPredicted+=3;
 
     //check statements!
-    if (readEveryPredicted >= imagePredicted.size())
+    if (readEveryPredicted >= imagePredicted.size()){
 
     //set readEverythree to 0
-    readEveryPredicted=0;
+        readEveryPredicted=0;
+        loopIndex = 0;
+    }
+
 
 }
 
@@ -138,14 +121,16 @@ void predictedResults::onDownloadFinishedRest(QNetworkReply *replyUI)
 
     if (replyUI->error() == QNetworkReply::NoError){
 
-    QPixmap pixmap;
+        QPixmap pixmap;
 
-    pixmap.loadFromData(replyUI->readAll());
+        pixmap.loadFromData(replyUI->readAll());
 
-    if (loopIndex < getLabels().size()){
+        if (loopIndex < getLabels().size()){
+            //qDebug() << "*****SIZE****: " << getLabels().size();
 
-            QLabel *label = imgLabels.at(loopIndex);
+            QLabel *label = getLabels().at(loopIndex);
 
+            qDebug() << "*****LABEL****: " << label;
             label->setPixmap(pixmap);
 
             label->setAlignment(Qt::AlignCenter);
@@ -155,7 +140,7 @@ void predictedResults::onDownloadFinishedRest(QNetworkReply *replyUI)
     }else{
             qDebug() << "No More labels to display";
         }
-    }
+    } // finish main if
 
     else{
         qDebug() << "Error:"<<replyUI->errorString();
@@ -168,12 +153,12 @@ void predictedResults::onDownloadImagelabels(QNetworkReply *replyImagesRequest)
 {
     if(replyImagesRequest->error()==QNetworkReply::NoError){
 
-        qDebug() << "Check Before: "<< imgNames.size();
+        qDebug() << "GET IMG NAMES SIZE: "<< getImgNames().size() << "IMG NAME SIZE"<< imgNames.size();
 
         if(loopIndex2 < getImgNames().size() && loopIndex2 < imgNames.size()){
 
                 // label name
-                QLabel *label_name =  imgNamesLabels.at(loopIndex2);
+                QLabel *label_name =  getImgNames().at(loopIndex2);
 
                 qDebug() << "Label Name: "<< label_name;
 
@@ -184,8 +169,13 @@ void predictedResults::onDownloadImagelabels(QNetworkReply *replyImagesRequest)
 
                 loopIndex2++;
 
-        }else{
-                qDebug() << "No Image Name to display or Update images";
+        }
+        /*else if(loopIndex2 >= getImgNames().size()){
+                 loopIndex2=0;
+        }*/
+        else{
+           qDebug() << "No Image Name to display or Update images";
+           loopIndex2=0;
         }
 
 

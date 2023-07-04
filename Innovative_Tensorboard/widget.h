@@ -22,12 +22,6 @@ namespace Ui { class Widget; }
 QT_END_NAMESPACE
 
 
-struct uiComponent{
-
-
-
-};
-
 
 class Widget : public QWidget, public OpearationHandler
 {
@@ -43,7 +37,12 @@ public:
     // get Labels for Labels
     QList<QLabel*> getImgNames() override;
 
-    QLabel* getLeb1();
+    // get predicted Image Handler
+
+    QList<QLabel*>getPredictedImgLabels();
+
+    QList<QLabel*>getPredictedLabels();
+
 
 public slots:
     void fetchImages();
@@ -87,6 +86,13 @@ private:
     QString name2;
 
     predictedResults *instancePredicted;
+
+
+    // image labels
+    QList<QLabel*>predictedImgLabels;
+
+    // image names labels
+    QList<QLabel*>predictedLabels;
 
 
 };

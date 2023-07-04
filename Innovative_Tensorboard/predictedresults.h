@@ -18,7 +18,7 @@ class predictedResults : public QWidget, public OpearationHandler
 {
     Q_OBJECT
 public:
-    explicit predictedResults(QWidget *parent = nullptr);
+    explicit predictedResults(QPushButton *button, QList<QLabel*>getLabels, QList<QLabel*>getImgNames, QWidget *parent = nullptr);
 
     QList<QLabel*> getLabels() override;
 
@@ -42,18 +42,16 @@ protected slots:
 private:
 
 
-
-    QList<QLabel*> imgNamesLabels;
-
-    QList<QLabel*> imgLabels;
-
     QStringList imagePredicted;
 
 
     QNetworkAccessManager *managerPredict;
 
+
+    // buffer for img Names to fill
     QList<QString> imgNames;
 
+    // corresponding image names
     QString name4;
     QString name5;
     QString name6;
@@ -61,6 +59,10 @@ private:
     int readEveryPredicted;
     int loopIndex;
     int loopIndex2;
+
+    QPushButton *button;
+    QList<QLabel*> imgNamesLabels;
+    QList<QLabel*> imgLabels;
 
 
 };
