@@ -21,8 +21,9 @@ set(PROJECT_SOURCES
         operationHandler.h
         predictedresults.cpp
         predictedresults.h
-
-
+        registration.cpp
+        registration.h
+        registration.ui
 
 )
 
