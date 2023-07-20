@@ -492,6 +492,9 @@ Qt6ShaderToolsTools_DIR:PATH=/home/fikrat/Qt/6.2.4/gcc_64/lib/cmake/Qt6ShaderToo
 //The directory containing a CMake configuration file for Qt6ShaderTools.
 Qt6ShaderTools_DIR:PATH=/home/fikrat/Qt/6.2.4/wasm_32/lib/cmake/Qt6ShaderTools
 
+//The directory containing a CMake configuration file for Qt6Sql.
+Qt6Sql_DIR:PATH=Qt6Sql_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Qt6StateMachineQml.
 Qt6StateMachineQml_DIR:PATH=/home/fikrat/Qt/6.2.4/wasm_32/lib/cmake/Qt6StateMachineQml
 
