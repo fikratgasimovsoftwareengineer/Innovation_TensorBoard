@@ -12,6 +12,7 @@
 #include <QTextStream>
 #include <QVariantList>
 #include <QVariant>
+#include <QString>
 namespace Ui {
 class Registration;
 }
@@ -24,8 +25,23 @@ public:
     explicit Registration(QWidget *parent = nullptr);
     ~Registration();
 
+private slots:
+    void on_pushButton_clicked();
+    void onFinishedRequest(QNetworkReply*);
+
 private:
     Ui::Registration *ui;
+
+    QString username;
+    QString mail;
+    QString password;
+    QString repeatPassword;
+
+    QJsonObject json;
+
+    QNetworkAccessManager *manager;
+
+
 };
 
 #endif // REGISTRATION_H

@@ -66,7 +66,7 @@ border-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(0, 174, 83, 
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_4"/>
+      <widget class="QLineEdit" name="linePwd"/>
      </item>
     </layout>
    </widget>
@@ -109,7 +109,7 @@ background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(40, 232,
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_3"/>
+      <widget class="QLineEdit" name="lineMail"/>
      </item>
     </layout>
    </widget>
@@ -151,7 +151,7 @@ font: 700 13pt &quot;Ubuntu Mono&quot;;</string>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_5"/>
+      <widget class="QLineEdit" name="lineUsername"/>
      </item>
     </layout>
    </widget>
@@ -176,7 +176,7 @@ font: 700 13pt &quot;Ubuntu Mono&quot;;</string>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_6"/>
+      <widget class="QLineEdit" name="linePwdVrf"/>
      </item>
     </layout>
    </widget>

@@ -28,21 +28,21 @@ public:
     QWidget *verticalLayoutWidget_4;
     QVBoxLayout *verticalLayout_4;
     QLabel *label_9;
-    QLineEdit *lineEdit_4;
+    QLineEdit *linePwd;
     QLabel *label_4;
     QWidget *verticalLayoutWidget_3;
     QVBoxLayout *verticalLayout_3;
     QLabel *label_8;
-    QLineEdit *lineEdit_3;
+    QLineEdit *lineMail;
     QPushButton *pushButton;
     QWidget *verticalLayoutWidget_5;
     QVBoxLayout *verticalLayout_5;
     QLabel *label_7;
-    QLineEdit *lineEdit_5;
+    QLineEdit *lineUsername;
     QWidget *verticalLayoutWidget_7;
     QVBoxLayout *verticalLayout_7;
     QLabel *label_10;
-    QLineEdit *lineEdit_6;
+    QLineEdit *linePwdVrf;
     QWidget *widget_2;
     QWidget *verticalLayoutWidget_6;
     QVBoxLayout *verticalLayout_6;
@@ -77,10 +77,10 @@ public:
 
         verticalLayout_4->addWidget(label_9);
 
-        lineEdit_4 = new QLineEdit(verticalLayoutWidget_4);
-        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+        linePwd = new QLineEdit(verticalLayoutWidget_4);
+        linePwd->setObjectName(QString::fromUtf8("linePwd"));
 
-        verticalLayout_4->addWidget(lineEdit_4);
+        verticalLayout_4->addWidget(linePwd);
 
         label_4 = new QLabel(widget);
         label_4->setObjectName(QString::fromUtf8("label_4"));
@@ -100,10 +100,10 @@ public:
 
         verticalLayout_3->addWidget(label_8);
 
-        lineEdit_3 = new QLineEdit(verticalLayoutWidget_3);
-        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineMail = new QLineEdit(verticalLayoutWidget_3);
+        lineMail->setObjectName(QString::fromUtf8("lineMail"));
 
-        verticalLayout_3->addWidget(lineEdit_3);
+        verticalLayout_3->addWidget(lineMail);
 
         pushButton = new QPushButton(widget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
@@ -122,10 +122,10 @@ public:
 
         verticalLayout_5->addWidget(label_7);
 
-        lineEdit_5 = new QLineEdit(verticalLayoutWidget_5);
-        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
+        lineUsername = new QLineEdit(verticalLayoutWidget_5);
+        lineUsername->setObjectName(QString::fromUtf8("lineUsername"));
 
-        verticalLayout_5->addWidget(lineEdit_5);
+        verticalLayout_5->addWidget(lineUsername);
 
         verticalLayoutWidget_7 = new QWidget(widget);
         verticalLayoutWidget_7->setObjectName(QString::fromUtf8("verticalLayoutWidget_7"));
@@ -139,10 +139,10 @@ public:
 
         verticalLayout_7->addWidget(label_10);
 
-        lineEdit_6 = new QLineEdit(verticalLayoutWidget_7);
-        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
+        linePwdVrf = new QLineEdit(verticalLayoutWidget_7);
+        linePwdVrf->setObjectName(QString::fromUtf8("linePwdVrf"));
 
-        verticalLayout_7->addWidget(lineEdit_6);
+        verticalLayout_7->addWidget(linePwdVrf);
 
         widget_2 = new QWidget(widget);
         widget_2->setObjectName(QString::fromUtf8("widget_2"));
