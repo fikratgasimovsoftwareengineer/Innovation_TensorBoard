@@ -1,5 +1,6 @@
 /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/EWIEGA46WW/moc_registration.cpp: /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/registration.h \
   /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug/Innovative_Tensorboard_autogen/moc_predefs.h \
+  /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/signin.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QByteArray \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QFile \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QIODevice \

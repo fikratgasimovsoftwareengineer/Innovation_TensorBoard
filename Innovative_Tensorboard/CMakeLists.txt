@@ -24,6 +24,9 @@ set(PROJECT_SOURCES
         registration.cpp
         registration.h
         registration.ui
+        signin.cpp
+        signin.h
+        signin.ui
 
 )
 

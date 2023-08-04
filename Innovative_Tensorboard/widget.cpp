@@ -13,6 +13,7 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
 
+
     // Predicted Images
     ui->pushButton->setText("Raw Images");
     ui->pushButton->setFlat(true);
@@ -48,6 +49,7 @@ Widget::Widget(QWidget *parent)
 
     };
 
+    //reg = new Registration(this);
 
     // connect to Raw Images
     connect(ui->pushButton, &QPushButton::clicked, this, &Widget::fetchImages);
@@ -57,6 +59,8 @@ Widget::Widget(QWidget *parent)
 
     // warn finishing image names
     connect(accessManager, &QNetworkAccessManager::finished, this, &Widget::onDownloadImagelabels);
+
+
 
 
 }
@@ -104,6 +108,11 @@ QList<QLabel *> Widget::getPredictedLabels()
     qDebug() << "Labels :"<<predictedLabels;
     return predictedLabels;
 }
+
+/*void Widget::connectToRegistration()
+{
+    connect(reg, &Registration::signUpSuccessfull,reg, &Registration::refreshPage);
+}*/
 
 
 /**********Retreive images 3 by 3*********************/

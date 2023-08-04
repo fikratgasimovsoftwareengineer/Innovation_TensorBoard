@@ -3621,6 +3621,12 @@
 			null
 		],
 		[
+			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/signin.h",
+			"MU",
+			"EWIEGA46WW/moc_signin.cpp",
+			null
+		],
+		[
 			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -3683,6 +3689,11 @@
 		],
 		[
 			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/registration.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/signin.cpp",
 			"MU",
 			null
 		],

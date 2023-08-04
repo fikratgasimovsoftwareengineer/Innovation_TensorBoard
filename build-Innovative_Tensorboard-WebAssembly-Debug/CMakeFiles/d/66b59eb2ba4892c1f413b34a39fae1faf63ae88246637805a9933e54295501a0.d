@@ -5,24 +5,32 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/operationHandler.h \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.cpp \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/predictedresults.h \
+  /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/registration.cpp \
+  /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/registration.h \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.cpp \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.h \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.24.2/CMakeSystem.cmake \
   Innovative_Tensorboard_autogen/moc_predefs.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QByteArray \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QDebug \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFile \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFileInfo \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QFlags \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QIODevice \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QJsonDocument \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QJsonObject \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QList \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QMetaType \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QObject \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QSharedDataPointer \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QString \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QStringList \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QTextStream \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QUrl \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QVariant \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/QVariantList \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qalgorithms.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qanystringview.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qarraydata.h \
@@ -37,6 +45,8 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qbytearraylist.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qbytearrayview.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qcalendar.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qcborcommon.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qcborvalue.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qchar.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qcompare.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qcompilerdetection.h \
@@ -62,6 +72,9 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qiodevicebase.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qiterable.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qiterator.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qjsondocument.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qjsonobject.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qjsonvalue.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qline.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qlist.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qlocale.h \
@@ -82,6 +95,7 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qprocessordetection.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qrect.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qrefcount.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qregularexpression.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qscopedpointer.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qscopeguard.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qset.h \
@@ -107,6 +121,7 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qtypeinfo.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qurl.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qutf8stringview.h \
+  /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/quuid.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qvariant.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/fikrat/Qt/6.2.4/gcc_64/include/QtCore/qversiontagging.h \
@@ -557,5 +572,6 @@ Innovative_Tensorboard_autogen/timestamp: \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+  /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/registration.ui \
   /home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/widget.ui \
   /home/fikrat/Qt/Tools/CMake/bin/cmake

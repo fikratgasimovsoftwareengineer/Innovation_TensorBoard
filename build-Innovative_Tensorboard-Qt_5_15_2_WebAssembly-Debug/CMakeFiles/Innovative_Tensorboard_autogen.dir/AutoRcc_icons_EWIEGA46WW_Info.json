@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/Innovative_Tensorboard_autogen",
+	"CMAKE_BINARY_DIR" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
+	"CMAKE_SOURCE_DIR" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard",
+	"INCLUDE_DIR" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/Innovative_Tensorboard_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/question.png",
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/repeat.png",
+		"/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/Icons/settings.png"
+	],
+	"LOCK_FILE" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "/home/fikrat/Qt/5.15.2/wasm_32/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/CMakeFiles/Innovative_Tensorboard_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard/icons.qrc",
+	"VERBOSITY" : 0
+}

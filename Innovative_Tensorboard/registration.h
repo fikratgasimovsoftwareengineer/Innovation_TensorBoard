@@ -13,6 +13,8 @@
 #include <QVariantList>
 #include <QVariant>
 #include <QString>
+#include "signin.h"
+
 namespace Ui {
 class Registration;
 }
@@ -25,9 +27,18 @@ public:
     explicit Registration(QWidget *parent = nullptr);
     ~Registration();
 
+
+public slots:
+    void refreshPage();
+
 private slots:
     void on_pushButton_clicked();
-    void onFinishedRequest(QNetworkReply*);
+    void onFinishedRequest(QNetworkReply* reply);
+
+
+
+signals:
+    void signUpSuccessfull();
 
 private:
     Ui::Registration *ui;
@@ -37,10 +48,12 @@ private:
     QString password;
     QString repeatPassword;
 
+
+
     QJsonObject json;
 
     QNetworkAccessManager *manager;
-
+    SignIn *sign;
 
 };
 

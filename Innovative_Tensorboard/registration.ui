@@ -217,6 +217,23 @@ font: 700 italic 13pt &quot;Ubuntu Condensed&quot;;</string>
      </layout>
     </widget>
    </widget>
+   <widget class="QLabel" name="successSignUp">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>460</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(115, 210, 22);
+font: italic 11pt &quot;Ubuntu Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

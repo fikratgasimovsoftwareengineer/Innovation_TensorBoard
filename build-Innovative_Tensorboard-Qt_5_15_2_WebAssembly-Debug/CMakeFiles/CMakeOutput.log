@@ -1,0 +1,145 @@
+The system is: Linux - 5.15.0-78-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/fikrat/emsdk/upstream/emscripten/em++ 
+Build flags: -DQT_QML_DEBUG
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out.js"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out.wasm"
+
+The CXX compiler identification is Clang, found in "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out.wasm"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/fikrat/Qt/Tools/Ninja/ninja cmTC_6c81e && [1/2] Building CXX object CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o
+ "/home/fikrat/emsdk/upstream/bin/clang++" -DEMSCRIPTEN -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -Xclang -iwithsysroot/include/SDL -target wasm32-unknown-emscripten -D__EMSCRIPTEN_major__=2 -D__EMSCRIPTEN_minor__=0 -D__EMSCRIPTEN_tiny__=14 -D_LIBCPP_ABI_VERSION=2 -Dunix -D__unix -D__unix__ -flegacy-pass-manager -Werror=implicit-function-declaration --sysroot=/home/fikrat/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -DQT_QML_DEBUG -v -MD -MT CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o.d -c /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -o CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o
+clang version 13.0.0 (/b/s/w/ir/cache/git/chromium.googlesource.com-external-github.com-llvm-llvm--project 5f3c99085d4c2ebf57fd0586b013b02e32a8e20b)
+Target: wasm32-unknown-emscripten
+Thread model: posix
+InstalledDir: /home/fikrat/emsdk/upstream/bin
+ (in-process)
+ "/home/fikrat/emsdk/upstream/bin/clang-13" -cc1 -triple wasm32-unknown-emscripten -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility hidden -debugger-tuning=gdb -v -resource-dir /home/fikrat/emsdk/upstream/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -D __EMSCRIPTEN_major__=2 -D __EMSCRIPTEN_minor__=0 -D __EMSCRIPTEN_tiny__=14 -D _LIBCPP_ABI_VERSION=2 -D unix -D __unix -D __unix__ -D QT_QML_DEBUG -isysroot /home/fikrat/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /home/fikrat/emsdk/upstream/lib/clang/13.0.0/include -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include -Werror=implicit-function-declaration -fdeprecated-macro -fdebug-compilation-dir /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -flegacy-pass-manager -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/SDL -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"
+ignoring nonexistent directory "/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/SDL
+ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/compat
+ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1
+ /home/fikrat/emsdk/upstream/lib/clang/13.0.0/include
+ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include
+End of search list.
+[2/2] Linking CXX executable cmTC_6c81e
+ "/home/fikrat/emsdk/upstream/bin/wasm-ld" -o cmTC_6c81e.wasm CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -L/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libgl.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libal.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libhtml5.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libcompiler_rt.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++-noexcept.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++abi-noexcept.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libdlmalloc.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc_rt_wasm.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libsockets.a -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --lto-legacy-pass-manager --allow-undefined --strip-debug --export main --export emscripten_stack_get_end --export emscripten_stack_get_free --export emscripten_stack_init --export stackSave --export stackRestore --export stackAlloc --export __wasm_call_ctors --export fflush --export __errno_location --export-table -z stack-size=5242880 --initial-memory=16777216 --no-entry --max-memory=16777216 --global-base=1024
+ "/home/fikrat/emsdk/upstream/bin/wasm-emscripten-finalize" --detect-features --minimize-wasm-changes --dyncalls-i64 cmTC_6c81e.wasm -o cmTC_6c81e.wasm
+ "/home/fikrat/emsdk/node/16.20.0_64bit/bin/node" /home/fikrat/emsdk/upstream/emscripten/src/compiler.js /tmp/tmpuolcso5n.txt
+ "/home/fikrat/emsdk/upstream/bin/llvm-objcopy" cmTC_6c81e.wasm cmTC_6c81e.wasm --remove-section=.debug* --remove-section=producers
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/SDL]
+    add: [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+    add: [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+    add: [/home/fikrat/emsdk/upstream/lib/clang/13.0.0/include]
+    add: [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include]
+  end of search list found
+  collapse include dir [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/SDL] ==> [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/SDL]
+  collapse include dir [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/compat] ==> [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+  collapse include dir [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1] ==> [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+  collapse include dir [/home/fikrat/emsdk/upstream/lib/clang/13.0.0/include] ==> [/home/fikrat/emsdk/upstream/lib/clang/13.0.0/include]
+  collapse include dir [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include] ==> [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include]
+  implicit include dirs: [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/SDL;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/compat;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1;/home/fikrat/emsdk/upstream/lib/clang/13.0.0/include;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/fikrat/Qt/Tools/Ninja/ninja cmTC_6c81e && [1/2] Building CXX object CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [ "/home/fikrat/emsdk/upstream/bin/clang++" -DEMSCRIPTEN -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -Xclang -iwithsysroot/include/SDL -target wasm32-unknown-emscripten -D__EMSCRIPTEN_major__=2 -D__EMSCRIPTEN_minor__=0 -D__EMSCRIPTEN_tiny__=14 -D_LIBCPP_ABI_VERSION=2 -Dunix -D__unix -D__unix__ -flegacy-pass-manager -Werror=implicit-function-declaration --sysroot=/home/fikrat/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -DQT_QML_DEBUG -v -MD -MT CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o.d -c /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -o CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [clang version 13.0.0 (/b/s/w/ir/cache/git/chromium.googlesource.com-external-github.com-llvm-llvm--project 5f3c99085d4c2ebf57fd0586b013b02e32a8e20b)]
+  ignore line: [Target: wasm32-unknown-emscripten]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/fikrat/emsdk/upstream/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/fikrat/emsdk/upstream/bin/clang-13" -cc1 -triple wasm32-unknown-emscripten -emit-obj -mrelax-all --mrelax-relocations -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility hidden -debugger-tuning=gdb -v -resource-dir /home/fikrat/emsdk/upstream/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -D __EMSCRIPTEN_major__=2 -D __EMSCRIPTEN_minor__=0 -D __EMSCRIPTEN_tiny__=14 -D _LIBCPP_ABI_VERSION=2 -D unix -D __unix -D __unix__ -D QT_QML_DEBUG -isysroot /home/fikrat/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /home/fikrat/emsdk/upstream/lib/clang/13.0.0/include -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include -Werror=implicit-function-declaration -fdeprecated-macro -fdebug-compilation-dir /home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-Qt_5_15_2_WebAssembly-Debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -flegacy-pass-manager -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/SDL -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.0.0 based upon LLVM 13.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/SDL]
+  ignore line: [ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+  ignore line: [ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+  ignore line: [ /home/fikrat/emsdk/upstream/lib/clang/13.0.0/include]
+  ignore line: [ /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_6c81e]
+  link line: [ "/home/fikrat/emsdk/upstream/bin/wasm-ld" -o cmTC_6c81e.wasm CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o -L/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libgl.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libal.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libhtml5.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libcompiler_rt.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++-noexcept.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++abi-noexcept.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libdlmalloc.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc_rt_wasm.a /home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libsockets.a -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --lto-legacy-pass-manager --allow-undefined --strip-debug --export main --export emscripten_stack_get_end --export emscripten_stack_get_free --export emscripten_stack_init --export stackSave --export stackRestore --export stackAlloc --export __wasm_call_ctors --export fflush --export __errno_location --export-table -z stack-size=5242880 --initial-memory=16777216 --no-entry --max-memory=16777216 --global-base=1024]
+    arg [/home/fikrat/emsdk/upstream/bin/wasm-ld] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6c81e.wasm] ==> ignore
+    arg [CMakeFiles/cmTC_6c81e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> dir [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libgl.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libgl.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libal.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libal.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libhtml5.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libhtml5.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libcompiler_rt.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libcompiler_rt.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++-noexcept.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++-noexcept.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++abi-noexcept.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++abi-noexcept.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libdlmalloc.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libdlmalloc.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc_rt_wasm.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc_rt_wasm.a]
+    arg [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libsockets.a] ==> lib [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libsockets.a]
+    arg [-mllvm] ==> ignore
+    arg [-combiner-global-alias-analysis=false] ==> ignore
+    arg [-mllvm] ==> ignore
+    arg [-enable-emscripten-sjlj] ==> ignore
+    arg [-mllvm] ==> ignore
+    arg [-disable-lsr] ==> ignore
+    arg [--lto-legacy-pass-manager] ==> ignore
+    arg [--allow-undefined] ==> ignore
+    arg [--strip-debug] ==> ignore
+    arg [--export] ==> ignore
+    arg [main] ==> ignore
+    arg [--export] ==> ignore
+    arg [emscripten_stack_get_end] ==> ignore
+    arg [--export] ==> ignore
+    arg [emscripten_stack_get_free] ==> ignore
+    arg [--export] ==> ignore
+    arg [emscripten_stack_init] ==> ignore
+    arg [--export] ==> ignore
+    arg [stackSave] ==> ignore
+    arg [--export] ==> ignore
+    arg [stackRestore] ==> ignore
+    arg [--export] ==> ignore
+    arg [stackAlloc] ==> ignore
+    arg [--export] ==> ignore
+    arg [__wasm_call_ctors] ==> ignore
+    arg [--export] ==> ignore
+    arg [fflush] ==> ignore
+    arg [--export] ==> ignore
+    arg [__errno_location] ==> ignore
+    arg [--export-table] ==> ignore
+    arg [-zstack-size=5242880] ==> ignore
+    arg [--initial-memory=16777216] ==> ignore
+    arg [--no-entry] ==> ignore
+    arg [--max-memory=16777216] ==> ignore
+    arg [--global-base=1024] ==> ignore
+  collapse library dir [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+  implicit libs: [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libgl.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libal.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libhtml5.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libcompiler_rt.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++-noexcept.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc++abi-noexcept.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libdlmalloc.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc_rt_wasm.a;/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libsockets.a]
+  implicit objs: []
+  implicit dirs: [/home/fikrat/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+  implicit fwks: []
+
+

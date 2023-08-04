@@ -43,6 +43,8 @@ public:
 
     QList<QLabel*>getPredictedLabels();
 
+    //void connectToRegistration();
+
 
 public slots:
     void fetchImages();
@@ -94,6 +96,7 @@ private:
     // image names labels
     QList<QLabel*>predictedLabels;
 
+   // Registration* reg;
 
 };
 

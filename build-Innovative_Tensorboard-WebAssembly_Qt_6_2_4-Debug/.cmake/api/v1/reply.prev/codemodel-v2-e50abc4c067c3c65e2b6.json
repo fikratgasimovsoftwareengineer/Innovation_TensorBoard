@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-4292c5e5ad98bdae9cfa.json",
+					"jsonFile" : "directory-.-Debug-8825953f930be570f8b4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,21 +44,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Innovative_Tensorboard::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Innovative_Tensorboard-Debug-2b3359ebf720c99447be.json",
+					"jsonFile" : "target-Innovative_Tensorboard-Debug-dde0dfbee5c744ddccf9.json",
 					"name" : "Innovative_Tensorboard",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Innovative_Tensorboard_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Innovative_Tensorboard_autogen-Debug-aa8a5650fdcf13f2d448.json",
+					"jsonFile" : "target-Innovative_Tensorboard_autogen-Debug-8fbdfe32d79687232c18.json",
 					"name" : "Innovative_Tensorboard_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Innovative_Tensorboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Innovative_Tensorboard_autogen_timestamp_deps-Debug-5155c35dbe4b685f02ce.json",
+					"jsonFile" : "target-Innovative_Tensorboard_autogen_timestamp_deps-Debug-1b05f830fd402c0ccd7e.json",
 					"name" : "Innovative_Tensorboard_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
@@ -68,7 +68,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly-Debug",
+		"build" : "/home/fikrat/Innovation_TensorBoard/build-Innovative_Tensorboard-WebAssembly_Qt_6_2_4-Debug",
 		"source" : "/home/fikrat/Innovation_TensorBoard/Innovative_Tensorboard"
 	},
 	"version" : 

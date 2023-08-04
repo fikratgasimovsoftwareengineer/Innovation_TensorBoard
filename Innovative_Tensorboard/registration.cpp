@@ -7,12 +7,13 @@ Registration::Registration(QWidget *parent) :
 {
     ui->setupUi(this);
 
+
    /* ui->lineUsername->text();
     ui->lineMail->text();*/
     ui->linePwd->setEchoMode(QLineEdit::Password);
     ui->linePwdVrf->setEchoMode(QLineEdit::Password);
 
-
+    connect(this, SIGNAL(signUpSuccessfull()), this, SLOT(refreshPage()));
 }
 
 Registration::~Registration()
@@ -33,7 +34,7 @@ void Registration::on_pushButton_clicked()
     json.insert("username", QJsonValue::fromVariant(username));
     json.insert("mail", QJsonValue::fromVariant(mail));
     json.insert("password", QJsonValue::fromVariant(password));
-    json.insert("verify_password", QJsonValue::fromVariant(repeatPassword));
+    json.insert("repeatPassword", QJsonValue::fromVariant(repeatPassword));
 
     // convert to bytre array
     QJsonDocument doc(json);
@@ -45,24 +46,53 @@ void Registration::on_pushButton_clicked()
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
     manager = new QNetworkAccessManager(this);
-    connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(onFinishedRequest(QNetworkReply *reply)));
+    connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(onFinishedRequest(QNetworkReply*reply)));
 
     qDebug() << "Sending Data:" << jsonData;
 
     manager->post(request, jsonData);
+
+    ui->successSignUp->setText("Successfully Registration on Tensorboard");
+
+    //emit signal!
+    emit signUpSuccessfull();
+
+
 }
 
 void Registration::onFinishedRequest(QNetworkReply *reply)
 {
     // check reply feedback
     if (reply->error() == QNetworkReply::NoError){
-        QString stringReply = (QString)reply->readAll();
-        qDebug() << "Response: " << stringReply;
+
+        int statusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
+        qDebug() << "Http status code: " << statusCode;
+
+        if (statusCode==200){
+            QString stringReply = (QString)reply->readAll();
+
+            qDebug() << "Response: " << stringReply;
+
+
+
+        }else{
+            // Handle other HTTP response statuses as needed
+            qDebug() << "Unexpected HTTP status.";
+        }
+
     }else{
-        qDebug() << "Response: " << reply->error();
+        qDebug() << "Network error:" << reply->errorString();
     }
+
     //delete reply
     reply->deleteLater();
 
+}
+
+void Registration::refreshPage()
+{
+    sign = new SignIn(this);
+    ui->widget->hide();
+    sign->show();
 }
 

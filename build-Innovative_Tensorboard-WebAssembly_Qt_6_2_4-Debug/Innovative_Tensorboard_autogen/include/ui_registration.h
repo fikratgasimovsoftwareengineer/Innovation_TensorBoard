@@ -47,6 +47,7 @@ public:
     QWidget *verticalLayoutWidget_6;
     QVBoxLayout *verticalLayout_6;
     QPushButton *pushButton_2;
+    QLabel *successSignUp;
 
     void setupUi(QWidget *Registration)
     {
@@ -162,6 +163,11 @@ public:
 
         verticalLayout_6->addWidget(pushButton_2, 0, Qt::AlignHCenter);
 
+        successSignUp = new QLabel(widget);
+        successSignUp->setObjectName(QString::fromUtf8("successSignUp"));
+        successSignUp->setGeometry(QRect(190, 460, 331, 31));
+        successSignUp->setStyleSheet(QString::fromUtf8("color: rgb(115, 210, 22);\n"
+"font: italic 11pt \"Ubuntu Condensed\";"));
 
         retranslateUi(Registration);
 
@@ -178,6 +184,7 @@ public:
         label_7->setText(QCoreApplication::translate("Registration", "Your username: ", nullptr));
         label_10->setText(QCoreApplication::translate("Registration", "Confirm your password: ", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Registration", "Already Enrolled?", nullptr));
+        successSignUp->setText(QString());
     } // retranslateUi
 
 };
