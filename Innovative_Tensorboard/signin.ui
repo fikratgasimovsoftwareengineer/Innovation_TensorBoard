@@ -63,7 +63,7 @@
      <string>Enter User Mail</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="mailEdit">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -116,10 +116,10 @@
    <widget class="QLabel" name="successSignIn">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>480</y>
-      <width>261</width>
-      <height>21</height>
+      <x>110</x>
+      <y>470</y>
+      <width>301</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">

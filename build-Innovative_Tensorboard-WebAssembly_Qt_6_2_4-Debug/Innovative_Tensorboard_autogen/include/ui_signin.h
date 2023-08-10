@@ -29,7 +29,7 @@ public:
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
     QLabel *label_2;
-    QLineEdit *lineEdit;
+    QLineEdit *mailEdit;
     QLineEdit *pwdLine;
     QLabel *label_3;
     QPushButton *pushButton;
@@ -63,9 +63,9 @@ public:
         label_2 = new QLabel(widget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(180, 120, 151, 20));
-        lineEdit = new QLineEdit(widget);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(180, 150, 331, 25));
+        mailEdit = new QLineEdit(widget);
+        mailEdit->setObjectName(QString::fromUtf8("mailEdit"));
+        mailEdit->setGeometry(QRect(180, 150, 331, 25));
         pwdLine = new QLineEdit(widget);
         pwdLine->setObjectName(QString::fromUtf8("pwdLine"));
         pwdLine->setGeometry(QRect(180, 240, 331, 25));
@@ -79,7 +79,7 @@ public:
 ""));
         successSignIn = new QLabel(widget);
         successSignIn->setObjectName(QString::fromUtf8("successSignIn"));
-        successSignIn->setGeometry(QRect(150, 480, 261, 21));
+        successSignIn->setGeometry(QRect(110, 470, 301, 31));
         line = new QFrame(widget);
         line->setObjectName(QString::fromUtf8("line"));
         line->setGeometry(QRect(190, 80, 321, 20));

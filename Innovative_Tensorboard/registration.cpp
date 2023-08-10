@@ -89,10 +89,43 @@ void Registration::onFinishedRequest(QNetworkReply *reply)
 
 }
 
+// Registration, check password match during registration!
 void Registration::refreshPage()
 {
+
+
+   try {
+        if (password != repeatPassword){
+            ui->successSignUp->setTextFormat(Qt::RichText);
+            ui->successSignUp->setStyleSheet("color : red;");
+            ui->successSignUp->setText("Password Do Not Match!");
+            ui->widget->update();
+
+        }
+        ui->successSignUp->setTextFormat(Qt::RichText);
+        ui->successSignUp->setStyleSheet("color : green;");
+        ui->successSignUp->setText("Successfully Registration");
+        QTimer::singleShot(2000, this, [this](){
+
+        sign = new SignIn(this);
+        ui->widget->hide();
+        sign->show();
+
+        });
+    } catch (...) {
+        qDebug() << "Error Pruning from Exception";
+    }
+
+
+}
+
+// IF you are already registered account , then directly sign in!
+void Registration::on_pushButton_2_clicked()
+{
     sign = new SignIn(this);
+
     ui->widget->hide();
     sign->show();
+
 }
 

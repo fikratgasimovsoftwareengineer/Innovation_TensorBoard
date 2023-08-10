@@ -86,6 +86,7 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QString \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QStringList \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QTextStream \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QTimer \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QUrl \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QVariant \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/QVariantList \
@@ -96,6 +97,7 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qarraydatapointer.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qatomic.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbasicatomic.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbasictimer.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbindingstorage.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbytearray.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qbytearrayalgorithms.h \
@@ -172,6 +174,7 @@ Innovative_Tensorboard_autogen/timestamp: \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qtaggedpointer.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qtcore-config.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qtextstream.h \
+  /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qtimer.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qtmetamacros.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qtypeinfo.h \
   /home/fikrat/Qt/6.2.4/wasm_32/include/QtCore/qurl.h \
