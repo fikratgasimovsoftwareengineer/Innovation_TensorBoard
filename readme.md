@@ -8,8 +8,8 @@
 ```
 
 # ProtoType looks like as the following:
-<img src="/home/fikrat/Innovation_TensorBoard/reg.png" width="128"/>
-<img src="/home/fikrat/Innovation_TensorBoard/sign.png" width="128"/>
-<img src="/home/fikrat/Innovation_TensorBoard/sign_succe.png" width="128"/>
-<img src="/home/fikrat/Innovation_TensorBoard/images.png" width="128"/>
-<img src="/home/fikrat/Innovation_TensorBoard/images2.png" width="128"/>
+<img src="/home/fikrat/Innovation_TensorBoard/reg.png" width="50"/>
+<img src="/home/fikrat/Innovation_TensorBoard/sign.png" width="50"/>
+<img src="/home/fikrat/Innovation_TensorBoard/sign_succe.png" width="50"/>
+<img src="/home/fikrat/Innovation_TensorBoard/images.png" width="50"/>
+<img src="/home/fikrat/Innovation_TensorBoard/images2.png" width="50"/>
