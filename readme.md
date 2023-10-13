@@ -8,8 +8,8 @@
 ```
 
 # ProtoType looks like as the following:
-<img src="reg.png" width="600"/>
-<img src="sign.png" width="600"/>
-<img src="sign_succe.png" width="300"/>
-<img src="images.png" width="300"/>
-<img src="images2.png" width="300"/>
+<img src="reg.png" width="800"/>
+<img src="sign.png" width="800"/>
+<img src="sign_succe.png" width="800"/>
+<img src="images.png" width="800"/>
+<img src="images2.png" width="800"/>
